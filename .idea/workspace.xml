@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="201da960-048c-42c8-a59d-84a4ab97b255" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/images/frutas/kiwi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/frutas/laranja.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            <state relative-caret-position="284">
+              <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+            <state relative-caret-position="259">
+              <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
               <folding>
                 <element signature="e#2792#2982#2" expanded="true" />
                 <element signature="e#3104#3294#2" expanded="true" />
@@ -78,8 +82,8 @@
       <list>
         <option value="$PROJECT_DIR$/docs/js/jquery-3.4.1.js" />
         <option value="$PROJECT_DIR$/docs/js/script.js" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/css/style.css" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
       </list>
     </option>
   </component>
@@ -89,13 +93,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="38" />
@@ -132,6 +129,19 @@
               <item name="alicia" type="b2602c69:ProjectViewProjectNode" />
               <item name="alicia" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alicia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alicia" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="frutas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alicia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alicia" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,6 +159,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/images/frutas" />
       <recent name="$PROJECT_DIR$/docs/js" />
       <recent name="$PROJECT_DIR$/docs/fonts" />
       <recent name="$PROJECT_DIR$/docs/images" />
@@ -310,12 +321,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577640121656</updated>
-      <workItem from="1577640123342" duration="3996000" />
+      <workItem from="1577640123342" duration="5050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3996000" />
+    <option name="totallyTimeSpent" value="5050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="25" width="1617" height="943" extended-state="0" />
@@ -374,10 +385,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+          <folding>
+            <element signature="e#2792#2982#2" expanded="true" />
+            <element signature="e#3104#3294#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        <state relative-caret-position="284">
+          <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -386,17 +408,6 @@
             <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-          <folding>
-            <element signature="e#2792#2982#2" expanded="true" />
-            <element signature="e#3104#3294#2" expanded="true" />
           </folding>
         </state>
       </provider>
