@@ -19,6 +19,42 @@ h1 {
     text-align: center;
 }
 
+.header,
+.footer {
+    padding: 10px;
+    background-color: #e1e1e1;
+    text-align: center;
+}
+
+.header {
+    border-bottom: 1px solid #c1c1c1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.footer {
+    border-top: 1px solid #c1c1c1;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.content {
+    margin-top: 75px;
+}
+
+.heart-icon {
+    fill: #008ac9;
+    position: relative;
+    top: 5px;
+    width: 1em;
+}
+
 #slider {
     position: relative;
     overflow: hidden;
@@ -38,9 +74,9 @@ h1 {
     float: left;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 500px;
-    line-height: 500px;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
     background: #ccc;
     text-align: center;
 }
