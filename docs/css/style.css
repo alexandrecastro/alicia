@@ -44,8 +44,16 @@ h1 {
     z-index: 9999;
 }
 
+.main {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
 .content {
-    margin-top: 75px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .heart-icon {
@@ -63,7 +71,7 @@ h1 {
 #slider {
     position: relative;
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #slider ul {
@@ -84,6 +92,7 @@ h1 {
     line-height: 300px;
     background: #ffffff;
     text-align: center;
+    font-size: 24px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -100,7 +109,7 @@ a.control_next {
     display: block;
     position: absolute;
     top: 45%;
-    padding: 3%;
+    padding: 4%;
     width: auto;
     height: auto;
     z-index: 999;
