@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Architects Daughter;
+    src: url('/alicia/fonts/ArchitectsDaughter.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Architects Daughter';
+    color: #666;
+    background: url('/alicia/images/bg.png')
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    line-height: 500px;
+    background: #ccc;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.control_prev,
+a.control_next {
+    display: block;
+    position: absolute;
+    top: 45%;
+    padding: 3%;
+    width: auto;
+    height: auto;
+    z-index: 999;
+}
+
+a.control_prev:hover,
+a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+a.control_next {
+    right: 0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
