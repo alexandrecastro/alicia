@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" selection-end-column="11" />
+            <state relative-caret-position="158">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding>
                 <element signature="e#869#1091#2" expanded="true" />
                 <element signature="e#2792#2982#2" expanded="true" />
@@ -78,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/bandeiras.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -110,10 +110,10 @@
         <option value="$PROJECT_DIR$/docs/cores.html" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/images/bandeiras/acre.svg" />
-        <option value="$PROJECT_DIR$/docs/css/style.css" />
         <option value="$PROJECT_DIR$/docs/frutas.html" />
         <option value="$PROJECT_DIR$/docs/images/bandeiras/sao-paulo.svg" />
         <option value="$PROJECT_DIR$/docs/bandeiras.html" />
+        <option value="$PROJECT_DIR$/docs/css/style.css" />
       </list>
     </option>
   </component>
@@ -349,12 +349,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577640121656</updated>
-      <workItem from="1577640123342" duration="14604000" />
+      <workItem from="1577640123342" duration="14896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14604000" />
+    <option name="totallyTimeSpent" value="14896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="25" width="1617" height="943" extended-state="0" />
@@ -406,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/cores.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -441,18 +434,6 @@
     <entry file="file://$PROJECT_DIR$/docs/images/bandeiras/acre.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" selection-end-column="11" />
-          <folding>
-            <element signature="e#869#1091#2" expanded="true" />
-            <element signature="e#2792#2982#2" expanded="true" />
-            <element signature="e#3104#3294#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/images/bandeiras/sao-paulo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -467,6 +448,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="16" column="118" lean-forward="true" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="e#869#1091#2" expanded="true" />
+            <element signature="e#2792#2982#2" expanded="true" />
+            <element signature="e#3104#3294#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -49,7 +49,7 @@ body {
 }
 
 .icon-heart:after {
-    display: inline-flex;
+    display: inline-block;
     position: relative;
     top: 5px;
     width: 18px;
