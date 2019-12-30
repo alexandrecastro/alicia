@@ -14,34 +14,25 @@ body {
     background: url('/alicia/images/bg.png')
 }
 
-h1 {
-    color: #333333;
-    text-align: center;
-}
-
 .header,
 .footer {
+    position: fixed;
+    right: 0;
+    left: 0;
     padding: 10px;
     background-color: #e1e1e1;
     text-align: center;
+    z-index: 9999;
 }
 
 .header {
-    border-bottom: 1px solid #c1c1c1;
-    position: fixed;
     top: 0;
-    right: 0;
-    left: 0;
-    z-index: 9999;
+    border-bottom: 1px solid #c1c1c1;
 }
 
 .footer {
-    border-top: 1px solid #c1c1c1;
-    position: fixed;
     bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: 9999;
+    border-top: 1px solid #c1c1c1;
 }
 
 .main {
@@ -54,18 +45,32 @@ h1 {
 .content {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
-.heart-icon {
-    fill: #cc0000;
+.icon-heart:after {
+    display: inline-flex;
     position: relative;
     top: 5px;
-    width: 1em;
+    width: 18px;
+    height: 18px;
+    content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 29.6'><path fill='%23cc0000' d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'></path></svg>");
 }
 
 .card {
-    width: 300px;
-    height: 300px;
+    background: url('/alicia/images/bg-card.png')
+}
+
+.card-image {
+    max-height: 80%;
+    max-width: 80%;
+    vertical-align: middle;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
 
 #slider {
@@ -104,8 +109,8 @@ a {
     cursor: pointer;
 }
 
-a.control_prev,
-a.control_next {
+a.control-prev,
+a.control-next {
     display: block;
     position: absolute;
     top: 45%;
@@ -115,17 +120,17 @@ a.control_next {
     z-index: 999;
 }
 
-a.control_prev:hover,
-a.control_next:hover {
+a.control-prev:hover,
+a.control-next:hover {
     opacity: 1;
     -webkit-transition: all 0.2s ease;
 }
 
-a.control_prev {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+a.control-prev {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
 }
 
-a.control_next {
+a.control-next {
     right: 0;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
 }

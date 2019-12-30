@@ -26,8 +26,8 @@ jQuery(document).ready(function ($) {
         });
     };
 
-    $('a.control_prev').click(function () { moveLeft(); });
+    $('a.control-prev').click(function () { moveLeft(); });
 
-    $('a.control_next').click(function () { moveRight(); });
+    $('a.control-next').click(function () { moveRight(); });
 
 });
