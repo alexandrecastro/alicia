@@ -3,7 +3,8 @@
     src: url('/alicia/fonts/ArchitectsDaughter.ttf');
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
