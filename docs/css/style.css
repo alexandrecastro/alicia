@@ -155,9 +155,10 @@ form {
     font-size: 20px;
     font-family: 'Architects Daughter';
     text-shadow: none;
+    box-shadow: none;
     cursor: pointer;
     color: #ffffff;
-    background: #0074d9;
+    background: none #0074d9;
 }
 
 .btn:active,
