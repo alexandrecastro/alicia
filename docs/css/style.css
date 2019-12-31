@@ -158,7 +158,10 @@ form {
     box-shadow: none;
     cursor: pointer;
     color: #ffffff;
-    background: none #0074d9;
+    background: #0074d9;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .btn:active,
