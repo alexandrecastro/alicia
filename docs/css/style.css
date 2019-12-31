@@ -7,12 +7,9 @@ html,
 body {
     margin: 0;
     padding: 0;
-}
-
-body {
+    background: url('/alicia/images/bg.png');
     font-family: 'Architects Daughter';
-    color: #666;
-    background: url('/alicia/images/bg.png')
+    color: #333333;
 }
 
 .header,
@@ -49,29 +46,29 @@ body {
     text-align: center;
 }
 
-.icon-heart:after {
-    display: inline-block;
-    position: relative;
-    top: 5px;
-    width: 18px;
-    height: 18px;
-    content: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23cc0000' viewBox='0 0 32 29.6'><path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'></path></svg>");
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.card {
-    background: url('/alicia/images/bg-card.png')
+.card-content {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    background: url('/alicia/images/bg-card.png');
+}
+
+.card-buttons {
+    margin-top: 20px;
 }
 
 .card-image {
     max-height: 80%;
     max-width: 80%;
     vertical-align: middle;
-}
-
-.center {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
 }
 
 #slider {
@@ -94,15 +91,11 @@ body {
     margin: 0;
     padding: 0;
     width: 300px;
-    height: 300px;
-    line-height: 300px;
-    background: #ffffff;
-    text-align: center;
-    font-size: 24px;
+    height: 500px;
+    user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
 }
 
 a {
@@ -134,4 +127,56 @@ a.control-prev {
 a.control-next {
     right: 0;
     background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+}
+
+a.back {
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+}
+
+form {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: block;
+    padding: 6px 40px;
+    margin: 0 0 10px 0;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Architects Daughter';
+    text-shadow: none;
+    cursor: pointer;
+    color: #ffffff;
+    background: #0074d9;
+}
+
+.btn:active,
+.btn:focus,
+.btn:visited {
+    color: #ffffff;
+    background: #0074d9;
+}
+
+.btn:hover {
+    color: #333333;
+    background: #ffdc00;
+}
+
+.icon-heart:after {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    content: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23cc0000' viewBox='0 0 32 29.6'><path d='M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z'></path></svg>");
 }
