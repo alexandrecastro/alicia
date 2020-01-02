@@ -71,20 +71,24 @@ body {
     vertical-align: middle;
 }
 
-#slider {
+#game {
+    display: none;
+}
+
+#deck {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
 }
 
-#slider ul {
+#deck ul {
     position: relative;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#slider ul li {
+#deck ul li {
     position: relative;
     display: block;
     float: left;
@@ -96,6 +100,35 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+}
+
+#score {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+#total-count,
+#correct-count,
+#incorrect-count {
+    margin: 5px;
+    padding: 2px 5px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#total-count {
+    background: #0074d9;
+}
+
+#correct-count {
+    background: #00a82d;
+}
+
+#incorrect-count {
+    background: #cc0000;
 }
 
 a {

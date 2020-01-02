@@ -7,46 +7,38 @@
     <link rel="icon" type="image/png" href="/alicia/images/favicon.png">
 </head>
 <body>
-    <div class="header"><a href="/alicia" class="back"></a><span>FLASHCARDS - BANDEIRAS</span></div>
+    <div class="header"><a href="/alicia" class="back"></a><span>FLASHCARDS - FLAGS</span></div>
     <div class="main">
         <div class="content">
-            <a href="#" class="control-next"></a>
-            <a href="#" class="control-prev"></a>
-            <div id="slider">
-                <ul>
-                    <li>
-                        <div class="card">
-                            <div class="card-content">
-                                <img src="/alicia/images/bandeiras/acre.svg" class="card-image"/>
+            <div id="loading">
+                <h1>FLAGS</h1>
+            </div>
+            <div id="game">
+                <div id="score">
+                    <span id="total-count">0</span>
+                    <span id="correct-count">0</span>
+                    <span id="incorrect-count">0</span>
+                </div>
+                <a href="#" class="control-next"></a>
+                <a href="#" class="control-prev"></a>
+                <div id="deck">
+                    <ul>
+                        <li>
+                            <div class="card">
+                                <div class="card-content">
+                                    LOADING...
+                                </div>
                             </div>
-                            <div class="card-buttons">
-                                <input type="button" class="btn" value="S&Atilde;O PAULO"/>
-                                <input type="button" class="btn" value="ACRE"/>
-                                <input type="button" class="btn" value="MATO GROSSO"/>
-                                <input type="button" class="btn" value="CEAR&Aacute;"/>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card">
-                            <div class="card-content">
-                                <img src="/alicia/images/bandeiras/sao-paulo.svg" class="card-image"/>
-                            </div>
-                            <div class="card-buttons">
-                                <input type="button" class="btn" value="RIO DE JANEIRO"/>
-                                <input type="button" class="btn" value="PIAU&Iacute;"/>
-                                <input type="button" class="btn" value="SERGIPE"/>
-                                <input type="button" class="btn" value="S&Atilde;O PAULO"/>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="footer">made with <i class="icon-heart"></i> by Castro to Alicia</div>
 </body>
 <script src="/alicia/js/jquery.js"></script>
+<script src="/alicia/js/data.js"></script>
 <script src="/alicia/js/script.js"></script>
 </html>
 
