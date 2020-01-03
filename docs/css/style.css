@@ -254,6 +254,7 @@ input[type="button"]:disabled {
     color: #666666;
     cursor: default;
     transition: none;
+    opacity: 1;
 }
 
 .correct {
