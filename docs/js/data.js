@@ -475,3 +475,47 @@ var CHEMICAL_ELEMENTS = [
     { question: 'QUAL O S&Iacute;MBOLO DO ELEMENTO QU&Iacute;MICO ZINCO?', options: [ { text: 'Zn', correct: true }, { text: 'Zr', correct: false }, { text: 'In', correct: false }, { text: 'V', correct: false } ] },
     { question: 'QUAL O S&Iacute;MBOLO DO ELEMENTO QU&Iacute;MICO ZIRC&Ocirc;NIO?', options: [ { text: 'Zr', correct: true }, { text: 'Zn', correct: false }, { text: 'W', correct: false }, { text: 'V', correct: false } ] }
 ];
+
+var COLORS = [
+    { question: 'AZUL', color: '#ffffff', backgroundColor: '#0000ff', options: [] },
+    { question: 'ROXO', color: '#ffffff', backgroundColor: '#842dce', options: [] },
+    { question: 'VERMELHO', color: '#ffffff', backgroundColor: '#ff0000', options: [] },
+    { question: 'VERDE', color: '#000000', backgroundColor: '#00ff00', options: [] },
+    { question: 'ROSA', color: '#ffffff', backgroundColor: '#ff00ff', options: [] },
+    { question: 'AMARELO', color: '#000000', backgroundColor: '#ffff00', options: [] },
+    { question: 'LARANJA', color: '#000000', backgroundColor: '#ff8c00', options: [] },
+    { question: 'MARROM', color: '#ffffff', backgroundColor: '#65350f', options: [] },
+    { question: 'BRANCO', color: '#000000', backgroundColor: '#ffffff', options: [] },
+    { question: 'PRETO', color: '#ffffff', backgroundColor: '#000000', options: [] }
+];
+
+var FRUITS = [
+    { image: 'fruits/abacate.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/abacaxi.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/ameixa.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/banana.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/goiaba.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/kiwi.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/laranja.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/maca.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/mamao.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/manga.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/mexerica.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/mirtilo.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/morango.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/pera.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/pessego.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/pitaia.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/roma.png', backgroundColor: '#ffffff', options: [] },
+    { image: 'fruits/uva.png', backgroundColor: '#ffffff', options: [] }
+];
+
+var GAMES = [
+    { id: 'WORLD_FLAGS', title: 'WORLD FLAGS', data: WORLD_FLAGS },
+    { id: 'WORLD_CAPITALS', title: 'WORLD CAPITALS', data: WORLD_CAPITALS },
+    { id: 'BRAZIL_FLAGS', title: 'BRAZIL FLAGS', data: BRAZIL_FLAGS },
+    { id: 'BRAZIL_CAPITALS', title: 'BRAZIL CAPITALS', data: BRAZIL_CAPITALS },
+    { id: 'CHEMICAL_ELEMENTS', title: 'CHEMICAL ELEMENTS', data: CHEMICAL_ELEMENTS },
+    { id: 'FRUITS', title: 'FRUITS', data: FRUITS },
+    { id: 'COLORS', title: 'COLORS', data: COLORS }
+]
