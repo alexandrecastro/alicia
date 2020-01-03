@@ -40,7 +40,7 @@ function buildDeck() {
 function buildCard(card) {
     var cardHtml =
         "<li>" +
-            "<div class=\"card\" id=\"card-" + card.id + "\" style=\"" + (card.color ? 'color: ' + card.color +';' : '') + (card.backgroundColor ? 'background: ' + card.backgroundColor +';' : '') + "\">" +
+            "<div class=\"card\" id=\"card-" + card.id + "\" style=\"" + (card.color ? 'color: ' + card.color + ';' : '') + (card.backgroundColor ? 'background: ' + card.backgroundColor + ';' : '') + "\">" +
                 "<div class=\"card-content\">" +
                     buildQuestion(card) +
                 "</div>" +
@@ -57,7 +57,7 @@ function buildQuestion(card) {
         if (card.image) {
             cardHtml = "<img src=\"/alicia/images/" + card.image + "\" class=\"card-image\"/>"
         } else {
-            cardHtml = "<div class=\"card-question\"><p>" + card.question + "</p></div>"
+            cardHtml = "<div class=\"card-question\"><p style=\"" + (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '') + "\">" + card.question + "</p></div>"
         }
     return cardHtml;
 }

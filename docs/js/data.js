@@ -476,19 +476,6 @@ var CHEMICAL_ELEMENTS = [
     { question: 'QUAL O S&Iacute;MBOLO DO ELEMENTO QU&Iacute;MICO ZIRC&Ocirc;NIO?', options: [ { text: 'Zr', correct: true }, { text: 'Zn', correct: false }, { text: 'W', correct: false }, { text: 'V', correct: false } ] }
 ];
 
-var COLORS = [
-    { question: 'AZUL', color: '#ffffff', backgroundColor: '#0000ff', options: [] },
-    { question: 'ROXO', color: '#ffffff', backgroundColor: '#842dce', options: [] },
-    { question: 'VERMELHO', color: '#ffffff', backgroundColor: '#ff0000', options: [] },
-    { question: 'VERDE', color: '#000000', backgroundColor: '#00ff00', options: [] },
-    { question: 'ROSA', color: '#ffffff', backgroundColor: '#ff00ff', options: [] },
-    { question: 'AMARELO', color: '#000000', backgroundColor: '#ffff00', options: [] },
-    { question: 'LARANJA', color: '#000000', backgroundColor: '#ff8c00', options: [] },
-    { question: 'MARROM', color: '#ffffff', backgroundColor: '#65350f', options: [] },
-    { question: 'BRANCO', color: '#000000', backgroundColor: '#ffffff', options: [] },
-    { question: 'PRETO', color: '#ffffff', backgroundColor: '#000000', options: [] }
-];
-
 var FRUITS = [
     { image: 'fruits/abacate.png', backgroundColor: '#ffffff', options: [] },
     { image: 'fruits/abacaxi.png', backgroundColor: '#ffffff', options: [] },
@@ -510,6 +497,63 @@ var FRUITS = [
     { image: 'fruits/uva.png', backgroundColor: '#ffffff', options: [] }
 ];
 
+var COLORS = [
+    { question: 'AZUL', color: '#ffffff', backgroundColor: '#0000ff', options: [] },
+    { question: 'ROXO', color: '#ffffff', backgroundColor: '#842dce', options: [] },
+    { question: 'VERMELHO', color: '#ffffff', backgroundColor: '#ff0000', options: [] },
+    { question: 'VERDE', color: '#000000', backgroundColor: '#00ff00', options: [] },
+    { question: 'ROSA', color: '#ffffff', backgroundColor: '#ff00ff', options: [] },
+    { question: 'AMARELO', color: '#000000', backgroundColor: '#ffff00', options: [] },
+    { question: 'LARANJA', color: '#000000', backgroundColor: '#ff8c00', options: [] },
+    { question: 'MARROM', color: '#ffffff', backgroundColor: '#65350f', options: [] },
+    { question: 'BRANCO', color: '#000000', backgroundColor: '#ffffff', options: [] },
+    { question: 'CINZA', color: '#ffffff', backgroundColor: '#666666', options: [] },
+    { question: 'PRETO', color: '#ffffff', backgroundColor: '#000000', options: [] }
+];
+
+var NUMBERS = [
+    { question: '0', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '1', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '2', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '3', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '4', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '5', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '6', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '7', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '8', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '9', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: '10', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] }
+];
+
+var ALPHABET = [
+    { question: 'A', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'B', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'C', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'D', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'E', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'F', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'G', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'H', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'I', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'J', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'K', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'L', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'M', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'N', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'O', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'P', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'Q', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'R', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'S', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'T', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'U', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'V', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'W', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'X', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'Y', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] },
+    { question: 'Z', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] }
+];
+
 var GAMES = [
     { id: 'WORLD_FLAGS', title: 'WORLD FLAGS', data: WORLD_FLAGS },
     { id: 'WORLD_CAPITALS', title: 'WORLD CAPITALS', data: WORLD_CAPITALS },
@@ -517,5 +561,7 @@ var GAMES = [
     { id: 'BRAZIL_CAPITALS', title: 'BRAZIL CAPITALS', data: BRAZIL_CAPITALS },
     { id: 'CHEMICAL_ELEMENTS', title: 'CHEMICAL ELEMENTS', data: CHEMICAL_ELEMENTS },
     { id: 'FRUITS', title: 'FRUITS', data: FRUITS },
-    { id: 'COLORS', title: 'COLORS', data: COLORS }
-]
+    { id: 'COLORS', title: 'COLORS', data: COLORS },
+    { id: 'NUMBERS', title: 'NUMBERS', data: NUMBERS },
+    { id: 'ALPHABET', title: 'ALPHABET', data: ALPHABET }
+];
