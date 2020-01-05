@@ -57,16 +57,19 @@ body {
 }
 
 .card-content {
-    width: 300px;
-    height: 200px;
-    line-height: 200px;
+    width: 298px;
+    height: 198px;
+    line-height: 198px;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    background: #f1f1f1;
 }
 
 @media (min-width: 768px) {
     .card-content {
-        width: 600px;
-        height: 380px;
-        line-height: 380px;
+        width: 598px;
+        height: 378px;
+        line-height: 378px;
     }
 }
 
@@ -138,7 +141,7 @@ body {
 @media (min-width: 768px) {
     #deck ul li {
         width: 600px;
-        height: 660px;
+        height: 680px;
     }
 }
 

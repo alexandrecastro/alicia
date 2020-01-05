@@ -1,3 +1,4 @@
+var gameId = undefined;
 var cards = [];
 
 var cardCount = 0;
@@ -40,8 +41,8 @@ function buildDeck() {
 function buildCard(card) {
     var cardHtml =
         "<li>" +
-            "<div class=\"card\" id=\"card-" + card.id + "\" style=\"" + (card.color ? 'color: ' + card.color + ';' : '') + (card.backgroundColor ? 'background: ' + card.backgroundColor + ';' : '') + "\">" +
-                "<div class=\"card-content\">" +
+            "<div class=\"card\" id=\"card-" + card.id + "\">" +
+                "<div class=\"card-content\" style=\"" + (card.color ? 'color: ' + card.color + ';' : '') + (card.backgroundColor ? 'background: ' + card.backgroundColor + ';' : '') + "\">" +
                     buildQuestion(card) +
                 "</div>" +
                 "<div class=\"card-buttons\">" +
@@ -56,9 +57,6 @@ function buildQuestion(card) {
     var cardHtml = "";
         if (card.image) {
             cardHtml += "<img  id=\"card-image-" + card.id + "\" src=\"/alicia/images/" + card.image + "\" class=\"card-image\"/>"
-            if (card.imageSolution) {
-                cardHtml += "<img  id=\"card-image-solution-" + card.id + "\" src=\"/alicia/images/" + card.imageSolution + "\" class=\"hidden card-image\"/>"
-            }
         } else {
             cardHtml += "<div class=\"card-question\"><p style=\"" + (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '') + "\">" + card.question + "</p></div>"
         }
@@ -93,13 +91,12 @@ function play(cardId, optionId) {
         $('#fail-count').html(++failCount);
     }
     if (card.imageSolution) {
-        $('#card-image-' + card.id).hide();
-        $('#card-image-solution-' + card.id).fadeIn();
+        $('#card-image-' + card.id).attr('src', '/alicia/images/' + card.imageSolution);
     }
 }
 
 $(document).ready(function () {
-    var gameId = new URL(window.location.href).searchParams.get('game');
+    gameId = new URL(window.location.href).searchParams.get('game');
     var game = GAMES.find(function (element) { return element.id == gameId });
     if (!game) {
         $('#title').html('Oops...');
