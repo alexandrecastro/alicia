@@ -299,3 +299,7 @@ input[type="button"]:disabled {
     transition: none;
     opacity: 1;
 }
+
+.hidden {
+    display: none;
+}

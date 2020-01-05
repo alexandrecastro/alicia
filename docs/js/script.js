@@ -53,11 +53,14 @@ function buildCard(card) {
 }
 
 function buildQuestion(card) {
-    var cardHtml;
+    var cardHtml = "";
         if (card.image) {
-            cardHtml = "<img src=\"/alicia/images/" + card.image + "\" class=\"card-image\"/>"
+            cardHtml += "<img  id=\"card-image-" + card.id + "\" src=\"/alicia/images/" + card.image + "\" class=\"card-image\"/>"
+            if (card.imageSolution) {
+                cardHtml += "<img  id=\"card-image-solution-" + card.id + "\" src=\"/alicia/images/" + card.imageSolution + "\" class=\"hidden card-image\"/>"
+            }
         } else {
-            cardHtml = "<div class=\"card-question\"><p style=\"" + (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '') + "\">" + card.question + "</p></div>"
+            cardHtml += "<div class=\"card-question\"><p style=\"" + (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '') + "\">" + card.question + "</p></div>"
         }
     return cardHtml;
 }
@@ -88,6 +91,10 @@ function play(cardId, optionId) {
     } else {
         $('#option-' + option.id).addClass('wrong');
         $('#fail-count').html(++failCount);
+    }
+    if (card.imageSolution) {
+        $('#card-image-' + card.id).hide();
+        $('#card-image-solution-' + card.id).fadeIn();
     }
 }
 

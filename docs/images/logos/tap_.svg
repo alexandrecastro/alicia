@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 38.630752 6.6569168"
+   version="1.1"
+   id="svg948"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="tap air portugal.svg">
+  <defs
+     id="defs942">
+    <path
+       d="M 0.468,24.49 H 20.763 V 0.33 H 0.468 Z"
+       id="a"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 0,24.49 H 21.97 V 0.33 H 0 Z"
+       id="c"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 0.056,24.49 H 11.894 V 0.33 H 0.056 Z"
+       id="e"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 0.468,24.49 H 7.232 V 0.33 H 0.468 Z"
+       id="g"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 6.5,10.444 V 0.092 H 0.294 v 10.352 z"
+       id="i"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 0,24.67 H 145.007 V 0.51 H 0 Z"
+       id="k"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.185951"
+     inkscape:cx="70.602872"
+     inkscape:cy="12.079981"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata945">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.977629,-350.23567)">
+    <g
+       id="g1091"
+       transform="translate(0.13229132,-0.13229089)">
+      <path
+         transform="matrix(0.26458333,0,0,0.26458333,38.666435,350.41294)"
+         style="fill:#ed1c24;fill-rule:evenodd"
+         inkscape:connector-curvature="0"
+         d="m 0.468,0.33 h 11.838 c 4.67,0 8.457,3.862 8.457,8.629 0,4.765 -3.787,8.628 -8.457,8.628 H 7.232 V 24.49 H 0.468 Z m 6.764,6.902 h 5.074 c 0.933,0 1.692,0.773 1.692,1.727 0,0.952 -0.759,1.725 -1.692,1.725 H 7.232 V 7.233 Z"
+         mask="none"
+         id="path961" />
+      <path
+         transform="matrix(0.26458333,0,0,0.26458333,38.666435,350.41294)"
+         style="fill:#ba141a;fill-rule:evenodd"
+         inkscape:connector-curvature="0"
+         d="M 0.468,24.49 H 7.232 L 0.468,0.33 Z"
+         mask="none"
+         id="path982" />
+    </g>
+  </g>
+</svg>

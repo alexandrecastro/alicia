@@ -217,6 +217,7 @@ var BRAZIL_FLAGS = [
     { image: 'flags/brazil/amazonas.svg', options: [ { text: 'AMAZONAS', correct: true }, { text: 'BAHIA', correct: false }, { text: 'PIAU&Iacute;', correct: false }, { text: 'TOCANTINS', correct: false } ] },
     { image: 'flags/brazil/bahia.svg', options: [ { text: 'BAHIA', correct: true }, { text: 'AMAZONAS', correct: false }, { text: 'S&Atilde;O PAULO', correct: false }, { text: 'RIO DE JANEIRO', correct: false } ] },
     { image: 'flags/brazil/ceara.svg', options: [ { text: 'CEAR&Aacute;', correct: true }, { text: 'GOI&Aacute;S', correct: false }, { text: 'ALAGOAS', correct: false }, { text: 'PERNAMBUCO', correct: false } ] },
+    { image: 'flags/brazil/distrito-federal.svg', options: [ { text: 'DISTRITO FEDERAL', correct: true }, { text: 'ACRE', correct: false }, { text: 'GOI&Aacute;S', correct: false }, { text: 'TOCANTINS', correct: false } ] },
     { image: 'flags/brazil/espirito-santo.svg', options: [ { text: 'ESP&Iacute;RITO SANTO', correct: true }, { text: 'PERNAMBUCO', correct: false }, { text: 'MARANH&Atilde;O', correct: false }, { text: 'SERGIPE', correct: false } ] },
     { image: 'flags/brazil/goias.svg', options: [ { text: 'GOI&Aacute;S', correct: true }, { text: 'CEAR&Aacute;', correct: false }, { text: 'PARA&Iacute;BA', correct: false }, { text: 'PERNAMBUCO', correct: false } ] },
     { image: 'flags/brazil/maranhao.svg', options: [ { text: 'MARANH&Atilde;O', correct: true }, { text: 'S&Atilde;O PAULO', correct: false }, { text: 'ACRE', correct: false }, { text: 'AMAZONAS', correct: false } ] },
@@ -554,6 +555,29 @@ var ALPHABET = [
     { question: 'Z', color: '#ffffff', backgroundColor: '#0000ff', fontSize: '128px', options: [] }
 ];
 
+var LOGOS = [
+    { image: 'logos/google_.svg', imageSolution: 'logos/google.svg', options: [ { text: 'GOOGLE', correct: true }, { text: 'ECOSIA', correct: false }, { text: 'YAHOO!', correct: false }, { text: 'BING', correct: false } ] },
+    { image: 'logos/yahoo_.svg', imageSolution: 'logos/yahoo.svg', options: [ { text: 'YAHOO!', correct: true }, { text: 'GOOGLE', correct: false }, { text: 'ECOSIA', correct: false }, { text: 'BING', correct: false } ] },
+    { image: 'logos/bing_.svg', imageSolution: 'logos/bing.svg', options: [ { text: 'BING', correct: true }, { text: 'BAIDU', correct: false }, { text: 'GOOGLE', correct: false }, { text: 'YAHOO!', correct: false } ] },
+    { image: 'logos/baidu_.svg', imageSolution: 'logos/baidu.svg', options: [ { text: 'BAIDU', correct: true }, { text: 'GOOGLE', correct: false }, { text: 'ECOSIA', correct: false }, { text: 'YAHOO!', correct: false } ] },
+    { image: 'logos/ecosia_.svg', imageSolution: 'logos/ecosia.svg', options: [ { text: 'ECOSIA', correct: true }, { text: 'GOOGLE', correct: false }, { text: 'BAIDU', correct: false }, { text: 'YAHOO!', correct: false } ] },
+    { image: 'logos/yandex_.svg', imageSolution: 'logos/yandex.svg', options: [ { text: 'YANDEX', correct: true }, { text: 'ECOSIA', correct: false }, { text: 'BAIDU', correct: false }, { text: 'YAHOO!', correct: false } ] },
+    { image: 'logos/wikipedia_.svg', imageSolution: 'logos/wikipedia.svg', options: [ { text: 'WIKIPEDIA', correct: true }, { text: 'ECOSIA', correct: false }, { text: 'BAIDU', correct: false }, { text: 'YANDEX', correct: false } ] },
+    { image: 'logos/lufthansa_.svg', imageSolution: 'logos/lufthansa.svg', options: [ { text: 'LUFTHANSA', correct: true }, { text: 'TURKISH AIRLINES', correct: false }, { text: 'BAIDU', correct: false }, { text: 'YANDEX', correct: false } ] },
+    { image: 'logos/turkish-airlines_.svg', imageSolution: 'logos/turkish-airlines.svg', options: [ { text: 'TURKISH AIRLINES', correct: true }, { text: 'LUFTHANSA', correct: false }, { text: 'AEROFLOT', correct: false }, { text: 'RYANAIR', correct: false } ] },
+    { image: 'logos/ryanair_.svg', imageSolution: 'logos/ryanair.svg', options: [ { text: 'RYANAIR', correct: true }, { text: 'FINNAIR', correct: false }, { text: 'LUFTHANSA', correct: false }, { text: 'LATAM', correct: false } ] },
+    { image: 'logos/aeroflot_.svg', imageSolution: 'logos/aeroflot.svg', options: [ { text: 'AEROFLOT', correct: true }, { text: 'EASYJET', correct: false }, { text: 'RYANAIR', correct: false }, { text: 'TURKISH AIRLINES', correct: false } ] },
+    { image: 'logos/finnair_.svg', imageSolution: 'logos/finnair.svg', options: [ { text: 'FINNAIR', correct: true }, { text: 'AEROFLOT', correct: false }, { text: 'RYANAIR', correct: false }, { text: 'WHIZZ AIR', correct: false } ] },
+    { image: 'logos/alitalia_.svg', imageSolution: 'logos/alitalia.svg', options: [ { text: 'ALITALIA', correct: true }, { text: 'FINNAIR', correct: false }, { text: 'AEROFLOT', correct: false }, { text: 'AEGEAN', correct: false } ] },
+    { image: 'logos/tap_.svg', imageSolution: 'logos/tap.svg', options: [ { text: 'TAP', correct: true }, { text: 'LATAM', correct: false }, { text: 'ALITALIA', correct: false }, { text: 'AEGEAN', correct: false } ] },
+    { image: 'logos/whizz-air_.svg', imageSolution: 'logos/whizz-air.svg', options: [ { text: 'WHIZZ AIR', correct: true }, { text: 'FINNAIR', correct: false }, { text: 'RYANAIR', correct: false }, { text: 'AEGEAN', correct: false } ] },
+    { image: 'logos/klm_.svg', imageSolution: 'logos/klm.svg', options: [ { text: 'KLM', correct: true }, { text: 'FINNAIR', correct: false }, { text: 'AEROFLOT', correct: false }, { text: 'NORWEGIAN', correct: false } ] },
+    { image: 'logos/air-france_.svg', imageSolution: 'logos/air-france.svg', options: [ { text: 'AIR FRANCE', correct: true }, { text: 'NORWEGIAN', correct: false }, { text: 'AVIANCA', correct: false }, { text: 'BRITISH AIRWAYS', correct: false } ] },
+    { image: 'logos/norwegian_.svg', imageSolution: 'logos/norwegian.svg', options: [ { text: 'NORWEGIAN', correct: true }, { text: 'AEGEAN', correct: false }, { text: 'AEROFLOT', correct: false }, { text: 'FINNAIR', correct: false } ] },
+    { image: 'logos/aegean_.svg', imageSolution: 'logos/aegean.svg', options: [ { text: 'AEGEAN', correct: true }, { text: 'NORWEGIAN', correct: false }, { text: 'AEROFLOT', correct: false }, { text: 'FINNAIR', correct: false } ] },
+    { image: 'logos/british-airways_.svg', imageSolution: 'logos/british-airways.svg', options: [ { text: 'BRITISH AIRWAYS', correct: true }, { text: 'AEROFLOT', correct: false }, { text: 'AIR FRANCE', correct: false }, { text: 'FINNAIR', correct: false } ] }
+];
+
 var GAMES = [
     { id: 'WORLD_FLAGS', title: 'WORLD FLAGS', data: WORLD_FLAGS },
     { id: 'WORLD_CAPITALS', title: 'WORLD CAPITALS', data: WORLD_CAPITALS },
@@ -563,5 +587,6 @@ var GAMES = [
     { id: 'FRUITS', title: 'FRUITS', data: FRUITS },
     { id: 'COLORS', title: 'COLORS', data: COLORS },
     { id: 'NUMBERS', title: 'NUMBERS', data: NUMBERS },
-    { id: 'ALPHABET', title: 'ALPHABET', data: ALPHABET }
+    { id: 'ALPHABET', title: 'ALPHABET', data: ALPHABET },
+    { id: 'LOGOS', title: 'LOGOS', data: LOGOS }
 ];
