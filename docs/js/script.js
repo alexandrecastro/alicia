@@ -1,4 +1,5 @@
-var gameId = undefined;
+var lastPositionX = undefined;
+var game = undefined;
 var cards = [];
 
 var cardCount = 0;
@@ -42,7 +43,7 @@ function buildCard(card) {
     var cardHtml =
         "<li>" +
             "<div class=\"card\" id=\"card-" + card.id + "\">" +
-                "<div class=\"card-content\" style=\"" + (card.color ? 'color: ' + card.color + ';' : '') + (card.backgroundColor ? 'background: ' + card.backgroundColor + ';' : '') + "\">" +
+                "<div class=\"card-content\" style=\"" + buildStyle(card) + "\">" +
                     buildQuestion(card) +
                 "</div>" +
                 "<div class=\"card-buttons\">" +
@@ -58,7 +59,7 @@ function buildQuestion(card) {
         if (card.image) {
             cardHtml += "<img  id=\"card-image-" + card.id + "\" src=\"/alicia/images/" + card.image + "\" class=\"card-image\"/>"
         } else {
-            cardHtml += "<div class=\"card-question\"><p style=\"" + (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '') + "\">" + card.question + "</p></div>"
+            cardHtml += "<div class=\"card-question\"><p>" + card.question + "</p></div>"
         }
     return cardHtml;
 }
@@ -69,6 +70,13 @@ function buildOptions(card) {
         optionsHtml += "<input type=\"button\" class=\"btn\" id=\"option-" + option.id + "\" value=\"" + option.text + "\" onclick=\"play("+ card.id + ", " + option.id + ");\"/>";
     });
     return optionsHtml;
+}
+
+function buildStyle(card) {
+    return (game.cardColor ? 'background: ' + game.cardColor + ';' : '') +
+           (card.color ? 'background: ' + card.color + ';' : '') +
+           (card.fontColor ? 'color: ' + card.fontColor + ';' : '') +
+           (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '');
 }
 
 function play(cardId, optionId) {
@@ -96,8 +104,8 @@ function play(cardId, optionId) {
 }
 
 $(document).ready(function () {
-    gameId = new URL(window.location.href).searchParams.get('game');
-    var game = GAMES.find(function (element) { return element.id == gameId });
+    var gameId = new URL(window.location.href).searchParams.get('game');
+    game = GAMES.find(function (element) { return element.id == gameId });
     if (!game) {
         $('#title').html('Oops...');
     } else {
@@ -133,6 +141,19 @@ $(document).ready(function () {
 
             $('html').keydown(function (event) { if (event.which == 37) { moveLeft(); } });
             $('html').keydown(function (event) { if (event.which == 39) { moveRight(); } });
+
+            $('#deck ul').on('touchstart', function (event) {
+                lastPositionX = event.changedTouches[0].pageX;
+            });
+            $('#deck ul').on('touchend', function (event) {
+                var diff = event.changedTouches[0].pageX - lastPositionX;
+                if (diff < -100) {
+                    moveRight();
+                }
+                if (diff > 100) {
+                    moveLeft();
+                }
+            });
 
             setTimeout(function () { $('#loading').fadeOut(); }, 1000);
             setTimeout(function () { $('#board').fadeIn(); }, 2000);
