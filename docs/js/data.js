@@ -586,7 +586,7 @@ var LOGOS = [
     { image: 'logos/egyptair_.svg', imageSolution: 'logos/egyptair.svg', options: [ { text: 'EGYPTAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/emirates_.svg', imageSolution: 'logos/emirates.svg', options: [ { text: 'EMIRATES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/ethiopian-airlines_.svg', imageSolution: 'logos/ethiopian-airlines.svg', options: [ { text: 'ETHIOPIAN AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    { image: 'logos/eithad_.svg', imageSolution: 'logos/eithad.svg', options: [ { text: 'EITHAD', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/etihad_.svg', imageSolution: 'logos/etihad.svg', options: [ { text: 'ETIHAD', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/eurowings_.svg', imageSolution: 'logos/eurowings.svg', options: [ { text: 'EUROWINGS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/finnair_.svg', imageSolution: 'logos/finnair.svg', options: [ { text: 'FINNAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/gol_.svg', imageSolution: 'logos/gol.svg', options: [ { text: 'GOL', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
