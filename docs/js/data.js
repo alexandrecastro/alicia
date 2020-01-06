@@ -583,11 +583,18 @@ var LOGOS = [
     { image: 'logos/delta_.svg', imageSolution: 'logos/delta.svg', options: [ { text: 'DELTA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/easyjet_.svg', imageSolution: 'logos/easyjet.svg', options: [ { text: 'EASYJET', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/ecosia_.svg', imageSolution: 'logos/ecosia.svg', options: [ { text: 'ECOSIA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    
+    { image: 'logos/egyptair_.svg', imageSolution: 'logos/egyptair.svg', options: [ { text: 'EGYPTAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/emirates_.svg', imageSolution: 'logos/emirates.svg', options: [ { text: 'EMIRATES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/ethiopian-airlines_.svg', imageSolution: 'logos/ethiopian-airlines.svg', options: [ { text: 'ETHIOPIAN AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/eithad_.svg', imageSolution: 'logos/eithad.svg', options: [ { text: 'EITHAD', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/eurowings_.svg', imageSolution: 'logos/eurowings.svg', options: [ { text: 'EUROWINGS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/finnair_.svg', imageSolution: 'logos/finnair.svg', options: [ { text: 'FINNAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    
+    { image: 'logos/gol_.svg', imageSolution: 'logos/gol.svg', options: [ { text: 'GOL', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/google_.svg', imageSolution: 'logos/google.svg', options: [ { text: 'GOOGLE', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    
+    { image: 'logos/iberia_.svg', imageSolution: 'logos/iberia.svg', options: [ { text: 'IBERIA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/icelandair_.svg', imageSolution: 'logos/icelandair.svg', options: [ { text: 'ICELANDAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/japan-airlines_.svg', imageSolution: 'logos/japan-airlines.svg', options: [ { text: 'JAPAN AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/jetblue_.svg', imageSolution: 'logos/jetblue.svg', options: [ { text: 'JETBLUE', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/klm_.svg', imageSolution: 'logos/klm.svg', options: [ { text: 'KLM', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/korean-air_.svg', imageSolution: 'logos/korean-air.svg', options: [ { text: 'KOREAN AIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/latam_.svg', imageSolution: 'logos/latam.svg', options: [ { text: 'LATAM', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
