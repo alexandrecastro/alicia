@@ -147,10 +147,10 @@ $(document).ready(function () {
             });
             $('#deck ul').on('touchend', function (event) {
                 var diff = event.changedTouches[0].pageX - lastPositionX;
-                if (diff < -100) {
+                if (diff < -50) {
                     moveRight();
                 }
-                if (diff > 100) {
+                if (diff > 50) {
                     moveLeft();
                 }
             });
