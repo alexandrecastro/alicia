@@ -593,7 +593,9 @@ var LOGOS = [
     { image: 'logos/lufthansa_.svg', imageSolution: 'logos/lufthansa.svg', options: [ { text: 'LUFTHANSA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     
     { image: 'logos/norwegian_.svg', imageSolution: 'logos/norwegian.svg', options: [ { text: 'NORWEGIAN', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    
+    { image: 'logos/qantas-airways_.svg', imageSolution: 'logos/qantas-airways.svg', options: [ { text: 'QANTAS AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/qatar-airways_.svg', imageSolution: 'logos/qatar-airways.svg', options: [ { text: 'QATAR AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/royal-air-maroc_.svg', imageSolution: 'logos/royal-air-maroc.svg', options: [ { text: 'ROYAL AIR MAROC', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/ryanair_.svg', imageSolution: 'logos/ryanair.svg', options: [ { text: 'RYANAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/scandinavian-airlines_.svg', imageSolution: 'logos/scandinavian-airlines.svg', options: [ { text: 'SCANDINAVIAN AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/singapore-airlines_.svg', imageSolution: 'logos/singapore-airlines.svg', options: [ { text: 'SINGAPORE AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
