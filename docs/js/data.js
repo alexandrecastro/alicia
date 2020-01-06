@@ -589,9 +589,10 @@ var LOGOS = [
     { image: 'logos/google_.svg', imageSolution: 'logos/google.svg', options: [ { text: 'GOOGLE', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     
     { image: 'logos/klm_.svg', imageSolution: 'logos/klm.svg', options: [ { text: 'KLM', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    
+    { image: 'logos/korean-air_.svg', imageSolution: 'logos/korean-air.svg', options: [ { text: 'KOREAN AIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+    { image: 'logos/latam_.svg', imageSolution: 'logos/latam.svg', options: [ { text: 'LATAM', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/lufthansa_.svg', imageSolution: 'logos/lufthansa.svg', options: [ { text: 'LUFTHANSA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-    
+    { image: 'logos/malaysia-airlines_.svg', imageSolution: 'logos/malaysia-airlines.svg', options: [ { text: 'MALAYSIA AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/norwegian_.svg', imageSolution: 'logos/norwegian.svg', options: [ { text: 'NORWEGIAN', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/qantas-airways_.svg', imageSolution: 'logos/qantas-airways.svg', options: [ { text: 'QANTAS AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
     { image: 'logos/qatar-airways_.svg', imageSolution: 'logos/qatar-airways.svg', options: [ { text: 'QATAR AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
@@ -612,14 +613,14 @@ var LOGOS = [
 ];
 
 var GAMES = [
-    { id: 'WORLD_FLAGS', title: 'WORLD FLAGS', data: WORLD_FLAGS },
-    { id: 'WORLD_CAPITALS', title: 'WORLD CAPITALS', data: WORLD_CAPITALS },
-    { id: 'BRAZIL_FLAGS', title: 'BRAZIL FLAGS', data: BRAZIL_FLAGS },
-    { id: 'BRAZIL_CAPITALS', title: 'BRAZIL CAPITALS', data: BRAZIL_CAPITALS },
-    { id: 'CHEMICAL_ELEMENTS', title: 'CHEMICAL ELEMENTS', data: CHEMICAL_ELEMENTS },
-    { id: 'FRUITS', title: 'FRUITS', data: FRUITS, cardColor: '#ffffff' },
+    { id: 'WORLD_FLAGS', title: 'WORLD FLAGS', data: WORLD_FLAGS, shuffle: true },
+    { id: 'WORLD_CAPITALS', title: 'WORLD CAPITALS', data: WORLD_CAPITALS, shuffle: true },
+    { id: 'BRAZIL_FLAGS', title: 'BRAZIL FLAGS', data: BRAZIL_FLAGS, shuffle: true },
+    { id: 'BRAZIL_CAPITALS', title: 'BRAZIL CAPITALS', data: BRAZIL_CAPITALS, shuffle: true },
+    { id: 'CHEMICAL_ELEMENTS', title: 'CHEMICAL ELEMENTS', data: CHEMICAL_ELEMENTS, shuffle: true },
+    { id: 'FRUITS', title: 'FRUITS', data: FRUITS, cardColor: '#ffffff', shuffle: true },
     { id: 'COLORS', title: 'COLORS', data: COLORS },
     { id: 'NUMBERS', title: 'NUMBERS', data: NUMBERS },
     { id: 'ALPHABET', title: 'ALPHABET', data: ALPHABET },
-    { id: 'LOGOS', title: 'LOGOS', data: LOGOS, cardColor: '#ffffff' }
+    { id: 'LOGOS', title: 'LOGOS', data: LOGOS, cardColor: '#ffffff', shuffle: true }
 ];

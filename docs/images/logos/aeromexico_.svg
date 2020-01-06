@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,7 +10,7 @@
    viewBox="0 0 113.08549 17.255985"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
    sodipodi:docname="aeromexico.svg">
   <defs
      id="defs2" />
@@ -23,9 +21,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="451.73565"
-     inkscape:cy="-10.201303"
+     inkscape:zoom="2.8986028"
+     inkscape:cx="93.689908"
+     inkscape:cy="8.2936926"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,9 +32,12 @@
      fit-margin-right="0.3"
      fit-margin-bottom="0.3"
      units="px"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:document-rotation="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="880" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -45,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +57,7 @@
      transform="translate(-42.229916,-105.38279)">
     <g
        id="g10"
-       transform="matrix(0.16287104,0,0,-0.16287104,42.309291,122.55951)">
+       transform="matrix(0.16287104,0,0,-0.16287104,50.309291,122.55951)">
       <g
          id="g12"
          transform="scale(0.1)">

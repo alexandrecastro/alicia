@@ -18,7 +18,7 @@ function initCards(cards) {
         });
         card.options = shuffle(card.options);
     });
-    return shuffle(cards);
+    return game.shuffle ? shuffle(cards) : cards;
 }
 
 function shuffle(array) {
