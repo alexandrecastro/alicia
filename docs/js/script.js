@@ -57,7 +57,7 @@ function buildCard(card) {
 function buildQuestion(card) {
     var cardHtml = "";
         if (card.image) {
-            cardHtml += "<img  id=\"card-image-" + card.id + "\" src=\"/alicia/images/" + card.image + "\" class=\"card-image\"/>"
+            cardHtml += "<img  id=\"card-image-" + card.id + "\" src=\"/alicia/images/" + game.repository + card.image + (game.type == 'PARTIAL_IMAGE' ? '_' : '') + '.' + game.imageType  + "\" class=\"card-image\"/>"
         } else {
             cardHtml += "<div class=\"card-question\"><p>" + card.question + "</p></div>"
         }
@@ -98,8 +98,8 @@ function play(cardId, optionId) {
         $('#option-' + option.id).addClass('wrong');
         $('#fail-count').html(++failCount);
     }
-    if (card.imageSolution) {
-        $('#card-image-' + card.id).attr('src', '/alicia/images/' + card.imageSolution);
+    if (game.type == 'PARTIAL_IMAGE') {
+        $('#card-image-' + card.id).attr('src', '/alicia/images/' + game.repository + card.image + '.' + game.imageType);
     }
 }
 
@@ -110,8 +110,9 @@ $(document).ready(function () {
         $('#title').html('Oops...');
     } else {
         $('#title').html(game.title);
+        $('#header').html(game.title);
 
-        cards = initCards(game.data);
+        cards = initCards(game.cards);
 
         buildDeck();
 
