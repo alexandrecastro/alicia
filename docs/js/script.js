@@ -1,25 +1,10 @@
 var lastPositionX = undefined;
-var game = undefined;
-var cards = [];
+var deck = undefined;
 
 var cardCount = 0;
 var notPlayedCount = 0;
 var hitCount = 0;
 var failCount = 0;
-
-function initCards(cards) {
-    var i = 1;
-    cards.forEach(function (card) {
-        card.id = i++;
-        card.played = false;
-        card.options.forEach(function (option) {
-            option.id = i++;
-            option.selected = false;
-        });
-        card.options = shuffle(card.options);
-    });
-    return game.shuffle ? shuffle(cards) : cards;
-}
 
 function shuffle(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -31,9 +16,27 @@ function shuffle(array) {
     return array;
 }
 
+function init() {
+    var i = 1;
+    deck.cards.forEach(function (card) {
+        card.id = i++;
+        card.played = false;
+        if (card.options) {
+            card.options.forEach(function (option) {
+                option.id = i++;
+                option.selected = false;
+            });
+            card.options = shuffle(card.options);
+        }
+    });
+    if (deck.shuffle) {
+        deck.cards = shuffle(deck.cards);
+    }
+}
+
 function buildDeck() {
     var deckHtml = "";
-    cards.forEach(function (card) {
+    deck.cards.forEach(function (card) {
         deckHtml += buildCard(card);
     });
     $('#deck ul').html(deckHtml);
@@ -43,7 +46,7 @@ function buildCard(card) {
     var cardHtml =
         "<li>" +
             "<div class=\"card\" id=\"card-" + card.id + "\">" +
-                "<div class=\"card-content\" style=\"" + buildStyle(card) + "\">" +
+                "<div class=\"card-content\" style=\"" + buildStyle('background', card.color) + "\">" +
                     buildQuestion(card) +
                 "</div>" +
                 "<div class=\"card-buttons\">" +
@@ -57,30 +60,33 @@ function buildCard(card) {
 function buildQuestion(card) {
     var cardHtml = "";
         if (card.image) {
-            cardHtml += "<img  id=\"card-image-" + card.id + "\" src=\"/alicia/images/" + game.repository + card.image + (game.type == 'PARTIAL_IMAGE' ? '_' : '') + '.' + game.imageType  + "\" class=\"card-image\"/>"
+            cardHtml += "<img id=\"card-image-" + card.id + "\" src=\"" + buildImageUrl(card, true) + "\" class=\"card-image\" alt=\"\"/>"
         } else {
-            cardHtml += "<div class=\"card-question\"><p>" + card.question + "</p></div>"
+            cardHtml += "<div class=\"card-question\"><p style=\"" + buildStyle('color', card.fontColor) + "\">" + card.question + "</p></div>"
         }
     return cardHtml;
 }
 
 function buildOptions(card) {
     var optionsHtml = "";
-    card.options.forEach(function (option) {
-        optionsHtml += "<input type=\"button\" class=\"btn\" id=\"option-" + option.id + "\" value=\"" + option.text + "\" onclick=\"play("+ card.id + ", " + option.id + ");\"/>";
-    });
+    if (card.options) {
+        card.options.forEach(function (option) {
+            optionsHtml += "<input type=\"button\" class=\"btn\" id=\"option-" + option.id + "\" value=\"" + option.text + "\" onclick=\"play(" + card.id + ", " + option.id + ");\"/>";
+        });
+    }
     return optionsHtml;
 }
 
-function buildStyle(card) {
-    return (game.cardColor ? 'background: ' + game.cardColor + ';' : '') +
-           (card.color ? 'background: ' + card.color + ';' : '') +
-           (card.fontColor ? 'color: ' + card.fontColor + ';' : '') +
-           (card.fontSize ? 'font-size: ' + card.fontSize + ';' : '');
+function buildImageUrl(card, partial) {
+    return '/alicia/images/' + deck.repository + card.image + (partial && deck.type == 'PARTIAL_IMAGE' ? '_' : '') + '.' + deck.imageType;
+}
+
+function buildStyle(property, value) {
+    return value ? property + ':' + value + ';' : '';
 }
 
 function play(cardId, optionId) {
-    var card = cards.find(function (element) { return element.id == cardId });
+    var card = deck.cards.find(function (element) { return element.id == cardId });
     var option = card.options.find(function (element) { return element.id == optionId });
     card.played = true;
     option.selected = true;
@@ -98,26 +104,27 @@ function play(cardId, optionId) {
         $('#option-' + option.id).addClass('wrong');
         $('#fail-count').html(++failCount);
     }
-    if (game.type == 'PARTIAL_IMAGE') {
-        $('#card-image-' + card.id).attr('src', '/alicia/images/' + game.repository + card.image + '.' + game.imageType);
+    if (deck.type == 'PARTIAL_IMAGE') {
+        $('#card-image-' + card.id).attr('src', buildImageUrl(card, false));
     }
 }
 
 $(document).ready(function () {
-    var gameId = new URL(window.location.href).searchParams.get('game');
-    game = GAMES.find(function (element) { return element.id == gameId });
-    if (!game) {
+    var deckId = new URL(window.location.href).searchParams.get('deck');
+    deck = DECKS.find(function (element) { return element.id == deckId });
+    if (!deck) {
         $('#title').html('Oops...');
     } else {
-        $('#title').html(game.title);
-        $('#header').html(game.title);
+        $('#header').html(deck.name);
+        $('#title').html(deck.name);
+        $('#board').addClass(deck.id);
 
-        cards = initCards(game.cards);
+        init();
 
         buildDeck();
 
-        cardCount = cards.length;
-        notPlayedCount = cards.length;
+        cardCount = deck.cards.length;
+        notPlayedCount = deck.cards.length;
         hitCount = 0;
         failCount = 0;
 
@@ -156,8 +163,7 @@ $(document).ready(function () {
                 }
             });
 
-            setTimeout(function () { $('#loading').fadeOut(); }, 1000);
-            setTimeout(function () { $('#board').fadeIn(); }, 2000);
+            setTimeout(function () {$('#loading').fadeOut(function () { $('#board').fadeIn(); }); }, 1000);
         }
 
         function moveLeft() {

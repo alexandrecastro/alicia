@@ -10,72 +10,10 @@
     <div class="header">FLASHCARDS</div>
     <div class="main">
         <div class="content">
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="WORLD_FLAGS"/>
-                    <input type="submit" class="btn" value="BANDEIRAS (MUNDO)"/>
-                </form>
+            <div id="loading">
+                <div id="spinner"></div>
             </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="WORLD_CAPITALS"/>
-                    <input type="submit" class="btn" value="CAPITAIS (MUNDO)"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="BRAZIL_FLAGS"/>
-                    <input type="submit" class="btn" value="BANDEIRAS (BRASIL)"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="BRAZIL_CAPITALS"/>
-                    <input type="submit" class="btn" value="CAPITAIS (BRASIL)"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="CHEMICAL_ELEMENTS"/>
-                    <input type="submit" class="btn" value="ELEMENTOS QU&Iacute;MICOS"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="FRUITS"/>
-                    <input type="submit" class="btn" value="FRUTAS"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="COLORS"/>
-                    <input type="submit" class="btn" value="CORES"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="NUMBERS"/>
-                    <input type="submit" class="btn" value="N&Uacute;MEROS"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="VOWELS"/>
-                    <input type="submit" class="btn" value="VOGAIS"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="ALPHABET"/>
-                    <input type="submit" class="btn" value="ALFABETO"/>
-                </form>
-            </div>
-            <div>
-                <form action="/alicia/board.html">
-                    <input type="hidden" name="game" value="LOGOS"/>
-                    <input type="submit" class="btn" value="LOGOS"/>
-                </form>
-            </div>
+            <div id="menu"></div>
         </div>
     </div>
     <div class="footer">made with <i class="icon-heart"></i> by Castro to Alicia</div>
@@ -83,6 +21,22 @@
 <script src="/alicia/js/jquery.js"></script>
 <script src="/alicia/js/data.js"></script>
 <script src="/alicia/js/script.js"></script>
+<script>
+    var content = "";
+    DECKS.forEach(function (deck) {
+        content +=
+            "<div>"+
+                "<form action=\"/alicia/board.html\">"+
+                    "<input type=\"hidden\" name=\"deck\" value=\"" + deck.id + "\"/>"+
+                    "<input type=\"submit\" class=\"btn\" value=\"" + deck.name + "\"/>"+
+                "</form>"+
+            "</div>";
+    });
+    $('#loading').fadeOut(function () {
+        $('#menu').html(content);
+        $('#menu').fadeIn();
+    });
+</script>
 </html>
 
 

@@ -1,6 +1,6 @@
 var WORLD_FLAGS = {
     id: 'WORLD_FLAGS',
-    title: 'BANDEIRAS',
+    name: 'BANDEIRAS',
     type: 'IMAGE',
     repository: 'flags/world/',
     imageType: 'svg',
@@ -220,7 +220,7 @@ var WORLD_FLAGS = {
 
 var BRAZIL_FLAGS = {
     id: 'BRAZIL_FLAGS',
-    title: 'BANDEIRAS',
+    name: 'BANDEIRAS',
     type: 'IMAGE',
     repository: 'flags/brazil/',
     imageType: 'svg',
@@ -258,7 +258,7 @@ var BRAZIL_FLAGS = {
 
 var WORLD_CAPITALS = {
     id: 'WORLD_CAPITALS',
-    title: 'CAPITAIS',
+    name: 'CAPITAIS',
     type: 'QUESTION',
     shuffle: true,
     cards: [
@@ -366,7 +366,7 @@ var WORLD_CAPITALS = {
 
 var BRAZIL_CAPITALS = {
     id: 'BRAZIL_CAPITALS',
-    title: 'CAPITAIS',
+    name: 'CAPITAIS',
     type: 'QUESTION',
     shuffle: true,
     cards: [
@@ -401,7 +401,7 @@ var BRAZIL_CAPITALS = {
 
 var CHEMICAL_ELEMENTS = {
     id: 'CHEMICAL_ELEMENTS',
-    title: 'ELEMENTOS QU&Iacute;MICOS',
+    name: 'ELEMENTOS QU&Iacute;MICOS',
     type: 'QUESTION',
     shuffle: true,
     cards: [
@@ -513,125 +513,123 @@ var CHEMICAL_ELEMENTS = {
 
 var FRUITS = {
     id: 'FRUITS',
-    title: 'FRUTAS',
+    name: 'FRUTAS',
     type: 'IMAGE',
     repository: 'fruits/',
     imageType: 'png',
-    cardColor: '#ffffff',
     cards: [
-        { image: 'abacate', options: [] },
-        { image: 'abacaxi', options: [] },
-        { image: 'ameixa', options: [] },
-        { image: 'banana', options: [] },
-        { image: 'goiaba', options: [] },
-        { image: 'kiwi', options: [] },
-        { image: 'laranja', options: [] },
-        { image: 'maca', options: [] },
-        { image: 'mamao', options: [] },
-        { image: 'manga', options: [] },
-        { image: 'mexerica', options: [] },
-        { image: 'mirtilo', options: [] },
-        { image: 'morango', options: [] },
-        { image: 'pera', options: [] },
-        { image: 'pessego', options: [] },
-        { image: 'pitaia', options: [] },
-        { image: 'roma', options: [] },
-        { image: 'uva', options: [] }
+        { image: 'abacate' },
+        { image: 'abacaxi' },
+        { image: 'ameixa' },
+        { image: 'banana' },
+        { image: 'goiaba' },
+        { image: 'kiwi' },
+        { image: 'laranja' },
+        { image: 'maca' },
+        { image: 'mamao' },
+        { image: 'manga' },
+        { image: 'mexerica' },
+        { image: 'mirtilo' },
+        { image: 'morango' },
+        { image: 'pera' },
+        { image: 'pessego' },
+        { image: 'pitaia' },
+        { image: 'roma' },
+        { image: 'uva' }
     ]
 };
 
 var COLORS = {
     id: 'COLORS',
-    title: 'CORES',
+    name: 'CORES',
     type: 'QUESTION',
     cards: [
-        { question: 'AZUL', fontColor: '#ffffff', color: '#0000ff', options: [] },
-        { question: 'ROXO', fontColor: '#ffffff', color: '#842dce', options: [] },
-        { question: 'VERMELHO', fontColor: '#ffffff', color: '#ff0000', options: [] },
-        { question: 'VERDE', fontColor: '#000000', color: '#00ff00', options: [] },
-        { question: 'ROSA', fontColor: '#ffffff', color: '#ff00ff', options: [] },
-        { question: 'AMARELO', fontColor: '#000000', color: '#ffff00', options: [] },
-        { question: 'LARANJA', fontColor: '#000000', color: '#ff8c00', options: [] },
-        { question: 'MARROM', fontColor: '#ffffff', color: '#65350f', options: [] },
-        { question: 'BRANCO', fontColor: '#000000', color: '#ffffff', options: [] },
-        { question: 'CINZA', fontColor: '#ffffff', color: '#666666', options: [] },
-        { question: 'PRETO', fontColor: '#ffffff', color: '#000000', options: [] }
+        { question: 'AZUL', fontColor: '#ffffff', color: '#0000ff' },
+        { question: 'ROXO', fontColor: '#ffffff', color: '#842dce' },
+        { question: 'VERMELHO', fontColor: '#ffffff', color: '#ff0000' },
+        { question: 'VERDE', fontColor: '#000000', color: '#00ff00' },
+        { question: 'ROSA', fontColor: '#ffffff', color: '#ff00ff' },
+        { question: 'AMARELO', fontColor: '#000000', color: '#ffff00' },
+        { question: 'LARANJA', fontColor: '#000000', color: '#ff8c00' },
+        { question: 'MARROM', fontColor: '#ffffff', color: '#65350f' },
+        { question: 'BRANCO', fontColor: '#000000', color: '#ffffff' },
+        { question: 'CINZA', fontColor: '#ffffff', color: '#666666' },
+        { question: 'PRETO', fontColor: '#ffffff', color: '#000000' }
     ]
 };
 
 var NUMBERS = {
     id: 'NUMBERS',
-    title: 'N&Uacute;MEROS',
+    name: 'N&Uacute;MEROS',
     type: 'QUESTION',
     cards: [
-        { question: '0', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '1', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '2', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '3', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '4', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '5', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '6', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '7', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '8', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '9', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: '10', fontColor: '#cc0000', fontSize: '128px', options: [] }
+        { question: '0' },
+        { question: '1' },
+        { question: '2' },
+        { question: '3' },
+        { question: '4' },
+        { question: '5' },
+        { question: '6' },
+        { question: '7' },
+        { question: '8' },
+        { question: '9' },
+        { question: '10' }
     ]
 };
 
 var VOWELS = {
     id: 'VOWELS',
-    title: 'VOGAIS',
+    name: 'VOGAIS',
     type: 'QUESTION',
     cards: [
-        { question: 'A', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'E', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'I', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'O', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'U', fontColor: '#cc0000', fontSize: '128px', options: [] }
+        { question: 'A' },
+        { question: 'E' },
+        { question: 'I' },
+        { question: 'O' },
+        { question: 'U' }
     ]
 };
 
 var ALPHABET = {
     id: 'ALPHABET',
-    title: 'ALFABETO',
+    name: 'ALFABETO',
     type: 'QUESTION',
     cards: [
-        { question: 'A', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'B', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'C', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'D', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'E', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'F', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'G', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'H', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'I', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'J', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'K', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'L', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'M', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'N', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'O', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'P', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'Q', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'R', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'S', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'T', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'U', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'V', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'W', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'X', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'Y', fontColor: '#cc0000', fontSize: '128px', options: [] },
-        { question: 'Z', fontColor: '#cc0000', fontSize: '128px', options: [] }
+        { question: 'A' },
+        { question: 'B' },
+        { question: 'C' },
+        { question: 'D' },
+        { question: 'E' },
+        { question: 'F' },
+        { question: 'G' },
+        { question: 'H' },
+        { question: 'I' },
+        { question: 'J' },
+        { question: 'K' },
+        { question: 'L' },
+        { question: 'M' },
+        { question: 'N' },
+        { question: 'O' },
+        { question: 'P' },
+        { question: 'Q' },
+        { question: 'R' },
+        { question: 'S' },
+        { question: 'T' },
+        { question: 'U' },
+        { question: 'V' },
+        { question: 'W' },
+        { question: 'X' },
+        { question: 'Y' },
+        { question: 'Z' }
     ]
 };
 
 var LOGOS = {
     id: 'LOGOS',
-    title: 'LOGOS',
+    name: 'LOGOS',
     type: 'PARTIAL_IMAGE',
     repository: 'logos/',
     imageType: 'svg',
-    cardColor: '#ffffff',
     shuffle: true,
     cards: [
         { image: 'aegean', options: [ { text: 'AEGEAN', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
@@ -698,7 +696,7 @@ var LOGOS = {
     ]
 };
 
-var GAMES = [
+var DECKS = [
     WORLD_FLAGS,
     WORLD_CAPITALS,
     BRAZIL_FLAGS,

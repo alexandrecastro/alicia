@@ -103,6 +103,10 @@ body {
     }
 }
 
+#menu {
+    display: none;
+}
+
 #board {
     display: none;
     position: absolute;
@@ -314,4 +318,32 @@ input[type="button"]:disabled {
 
 .hidden {
     display: none;
+}
+
+/* DECKS */
+
+.COLORS .card-content {
+    border-color: #000000;
+}
+
+.FRUITS .card-content,
+.LOGOS .card-content {
+    background: #ffffff;
+}
+
+.FRUITS .card-image {
+    width: auto;
+}
+
+.ALPHABET p,
+.NUMBERS p,
+.VOWELS p {
+    color: #0000ff;
+    font-size: 128px;
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+}
+
+.COLORS p {
+    font-size: 42px;
 }
