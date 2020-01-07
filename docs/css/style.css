@@ -109,7 +109,7 @@ body {
 
 #board {
     display: none;
-    position: absolute;
+    position: flex;
     top: 0;
     right: 0;
     left: 0;

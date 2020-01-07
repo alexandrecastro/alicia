@@ -132,6 +132,10 @@ $(document).ready(function () {
         var cardWidth = cardElement.width();
         var cardHeight = cardElement.height();
 
+        if (!deck.cards[0].options) {
+            $('#score').hide();
+        }
+
         initBoard();
 
         function initBoard() {
