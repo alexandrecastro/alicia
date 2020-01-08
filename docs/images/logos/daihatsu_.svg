@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="600"
+   height="109"
+   id="svg2237">
+  <defs
+     id="defs2239" />
+  <g
+     transform="translate(-155.7085,-363.10382)"
+     id="layer1">
+    <g
+       transform="matrix(2799.7904,0,0,2797.3802,58.28573,-2418.7874)"
+       id="g2225">
+      <polygon
+         points="38.043,88.746 76.191,88.746 76.191,111.19 38.043,111.19 38.043,88.746 "
+         transform="matrix(1.7361e-3,0,0,-1.7361e-3,-3.125e-2,1.1875)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#e1114d;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="polygon36" />
+      <path
+         d="M 49.566,104.57 L 50.26,104.57 L 50.969,104.56 L 52.428,104.54 L 53.932,104.49 L 55.469,104.43 L 57.026,104.35 L 58.591,104.24 L 60.152,104.12 L 61.696,103.97 L 63.212,103.8 L 64.687,103.61 L 65.405,103.51 L 66.109,103.39 L 66.796,103.28 L 67.465,103.15 L 68.115,103.02 L 68.744,102.88 L 69.351,102.74 L 69.933,102.58 L 70.49,102.42 L 71.02,102.26 L 71.521,102.08 L 71.992,101.9 C 72.445,101.72 72.805,101.56 72.805,101.23 C 72.805,100.77 71.809,100.45 70.891,100.16 C 67.289,99.035 60.855,97.727 51.434,97.055 L 42.695,105.79 C 41.848,105.77 41.141,105.74 40.617,105.7 L 49.645,96.676 L 47.195,93.102 C 61.785,95.41 68.383,97.719 71.313,99.066 C 71.941,99.352 73.742,100.16 73.742,101.23 C 73.742,101.87 73.133,102.26 72.344,102.6 C 69.336,103.89 64.281,104.75 59.285,105.18 C 54.109,105.69 47.215,105.83 43.406,105.79 L 51.539,97.66 C 53.141,97.777 54.652,97.91 56.082,98.059 L 49.566,104.57 z "
+         transform="matrix(1.7361e-3,0,0,-1.7361e-3,-3.125e-2,1.1875)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path38" />
+    </g>
+  </g>
+</svg>
