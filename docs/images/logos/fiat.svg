@@ -11,10 +11,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="300"
-   height="300"
    id="svg2"
    xml:space="preserve"
+   viewBox="0 0 300 300"
    inkscape:version="0.48.1 "
    sodipodi:docname="Logo_Fiat.svg"><sodipodi:namedview
      pagecolor="#ffffff"
@@ -25,8 +24,6 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="738"
      id="namedview80"
      showgrid="false"
      inkscape:zoom="1.73"
@@ -34,7 +31,6 @@
      inkscape:cy="150"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1"
      inkscape:current-layer="svg2" /><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type

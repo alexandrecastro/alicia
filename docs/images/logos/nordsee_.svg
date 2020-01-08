@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="112.88889mm"
+   height="17.901699mm"
+   viewBox="0 0 399.99999 63.431217"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Nordsee_Logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="283.46457"
+     inkscape:cy="44.951252"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(345.60742,-513.88224)">
+    <g
+       id="layer1-7"
+       transform="matrix(0.70555556,0,0,0.70555556,-672.75362,489.86484)">
+      <g
+         id="g6958">
+        <path
+           style="fill:#e70018;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path6201"
+           d="m 919.82219,78.991327 c 0.77033,1.232577 11.16474,14.257777 32.9191,15.413087 l 0,23.185136 c -42.18644,-1.57423 -62.65077,-34.830281 -64.53474,-38.598223 1.88397,-3.767942 22.3483,-37.023322 64.53474,-38.597553 l 0,23.185139 c -21.75436,1.155309 -32.14877,14.18051 -32.9191,15.412414 z m 40.24334,15.327086 C 969.84654,93.52693 980.96895,89.740175 993.90882,78.991327 980.96895,68.243152 969.84654,64.456733 960.06553,63.664914 l 0,-23.217389 c 22.77697,1.216115 37.82086,12.200459 49.09307,23.281554 7.6448,-8.929377 15.5545,-19.85829 21.4423,-29.688668 l 0,32.917757 c -1.0918,2.073107 -4.5658,7.087064 -8.2074,11.964963 3.7165,4.965916 7.1986,10.06621 8.2074,12.101356 l 0,32.918433 c -5.8696,-9.80082 -13.7498,-20.69311 -21.3717,-29.606031 -11.60116,11.675711 -26.2483,22.067781 -49.16367,23.206301"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
