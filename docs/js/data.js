@@ -698,7 +698,7 @@ var LOGOS = {
         { image: 'lufthansa', options: [ { text: 'LUFTHANSA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'malaysia-airlines', options: [ { text: 'MALAYSIA AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'maserati', options: [ { text: 'MASERATI', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
-        { image: 'mercedes-benz', options: [ { text: 'MERCEDES-BENZ, correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'mercedes-benz', options: [ { text: 'MERCEDES-BENZ', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'norwegian', options: [ { text: 'NORWEGIAN', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'qantas-airways', options: [ { text: 'QANTAS AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'qatar-airways', options: [ { text: 'QATAR AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
