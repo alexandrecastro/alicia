@@ -708,13 +708,18 @@ var LOGOS = {
         { image: 'singapore-airlines', options: [ { text: 'SINGAPORE AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'south-african-airways', options: [ { text: 'SOUTH AFRICAN AIRWAYS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'swiss', options: [ { text: 'SWISS', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'taco-bell', options: [ { text: 'TACO BELL', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'tap', options: [ { text: 'TAP', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'tesla', options: [ { text: 'TESLA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'toyota', options: [ { text: 'TOYOTA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'turkish-airlines', options: [ { text: '?', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'united-airlines', options: [ { text: 'UNITED AIRLINES', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'vueling', options: [ { text: 'VUELING', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'wendys', options: [ { text: 'WENDY&apos;S', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'wikipedia', options: [ { text: 'WIKIPEDIA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'wizz-air', options: [ { text: 'WIZZ AIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'yahoo', options: [ { text: 'YAHOO!', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'yamaha', options: [ { text: 'YAMAHA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'yandex', options: [ { text: 'YANDEX', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] }
     ]
 };
