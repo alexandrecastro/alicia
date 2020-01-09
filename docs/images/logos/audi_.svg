@@ -1,5 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="196" height="68">
-<path fill="none" stroke="#000" stroke-width="7" d="m34,4a30,30 0 1,0
-2,0zm42,0a30,30 0 1,0 2,0zm42,0a30,30 0 1,0 2,0zm42,0a30,30 0 1,0 2,0z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   sodipodi:docname="audi_.svg"
+   id="svg1653"
+   version="1.1"
+   height="68"
+   width="196">
+  <metadata
+     id="metadata1659">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1657" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg1653"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="34"
+     inkscape:cx="98"
+     inkscape:zoom="2.4744898"
+     showgrid="false"
+     id="namedview1655"
+     inkscape:window-height="590"
+     inkscape:window-width="797"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     sodipodi:nodetypes="cssscccssscc"
+     inkscape:connector-curvature="0"
+     id="path1651"
+     d="M 76,4 C 59.635446,4.5457884 46.731167,18.113577 47.004977,34.47694 47.278775,50.839529 60.628628,63.946516 77,63.946516 c 16.371372,0 29.72123,-13.106987 29.99502,-29.469576 C 107.26883,18.113577 94.364554,4.5457884 78,4 Z m 42,0 C 101.63545,4.5457884 88.731167,18.113577 89.004977,34.47694 89.278775,50.839529 102.62863,63.946516 119,63.946516 c 16.37137,0 29.72123,-13.106987 29.99502,-29.469576 C 149.26883,18.113577 136.36455,4.5457884 120,4 Z"
+     stroke-width="7"
+     stroke="#000"
+     fill="none" />
 </svg>
