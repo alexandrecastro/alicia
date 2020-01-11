@@ -1,6 +1,6 @@
 var WORLD_FLAGS = {
     id: 'WORLD_FLAGS',
-    name: 'BANDEIRAS',
+    name: 'BANDEIRAS (MUNDO)',
     type: 'IMAGE',
     repository: 'flags/world/',
     imageType: 'svg',
@@ -220,7 +220,7 @@ var WORLD_FLAGS = {
 
 var BRAZIL_FLAGS = {
     id: 'BRAZIL_FLAGS',
-    name: 'BANDEIRAS',
+    name: 'BANDEIRAS (BRASIL)',
     type: 'IMAGE',
     repository: 'flags/brazil/',
     imageType: 'svg',
@@ -258,7 +258,7 @@ var BRAZIL_FLAGS = {
 
 var WORLD_CAPITALS = {
     id: 'WORLD_CAPITALS',
-    name: 'CAPITAIS',
+    name: 'CAPITAIS (MUNDO)',
     type: 'QUESTION',
     shuffle: true,
     cards: [
@@ -366,7 +366,7 @@ var WORLD_CAPITALS = {
 
 var BRAZIL_CAPITALS = {
     id: 'BRAZIL_CAPITALS',
-    name: 'CAPITAIS',
+    name: 'CAPITAIS (MUNDO)',
     type: 'QUESTION',
     shuffle: true,
     cards: [
@@ -706,6 +706,7 @@ var LOGOS = {
         { image: 'huawei', options: [ { text: 'HUAWEI', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'hyundai', options: [ { text: 'HYUNDAI', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'iberia', options: [ { text: 'IBERIA', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
+        { image: 'ibm', options: [ { text: 'IBM', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'icelandair', options: [ { text: 'ICELANDAIR', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'infiniti', options: [ { text: 'INFINITI', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
         { image: 'isuzu', options: [ { text: 'ISUZU', correct: true }, { text: '?' }, { text: '?' }, { text: '?' } ] },
