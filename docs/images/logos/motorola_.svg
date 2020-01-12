@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="229.088"
+   viewBox="0 0 264.58333 60.612868"
+   version="1.1"
+   id="svg4550"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Motorola (2017).svg">
+  <defs
+     id="defs4544" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="377.74683"
+     inkscape:cy="175.42924"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4547">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-236.38712)">
+    <path
+       class="st1"
+       d="M 30.306486,236.38703 C 13.549846,236.38703 0,249.93687 0,266.69351 0,283.45015 13.549846,297 30.306486,297 c 16.756641,0 30.306487,-13.54985 30.306487,-30.30649 0,-16.66632 -13.36917,-30.30648 -30.306487,-30.30648"
+       id="path20"
+       style="fill:#000000;stroke-width:0.45166153"
+       inkscape:connector-curvature="0" />
+    <path
+       class="st2"
+       d="m 39.339723,243.83943 -8.988068,29.80967 -0.04524,0.0452 -0.0903,-0.0452 -8.988067,-29.80967 -11.6076989,38.1654 h 2.1679749 c 0,0 1.445323,-6.63941 3.839126,-10.61403 1.309816,-2.16798 3.297133,-3.92946 5.961933,-3.8843 1.896978,0.0452 3.52296,1.08399 5.555428,3.92945 0.451673,0.63233 0.993667,1.67115 1.535661,2.6648 0.858142,1.67115 1.580812,3.38747 1.580812,3.38747 0,0 1.896979,-4.33595 3.116456,-6.05227 2.032486,-2.84546 3.658467,-3.88428 5.555446,-3.92945 2.6648,-0.0452 4.697268,1.71631 5.961932,3.8843 2.393803,3.97462 3.839126,10.61403 3.839126,10.61403 h 2.167975 z"
+       id="path22"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.45166153" />
+  </g>
+</svg>

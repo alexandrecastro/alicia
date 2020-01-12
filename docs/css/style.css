@@ -109,6 +109,7 @@ body {
 
 #menu {
     display: none;
+    margin: 50px 0;
 }
 
 #board {
@@ -332,7 +333,8 @@ input[type="button"]:disabled {
 }
 
 .FRUITS .card-content,
-.LOGOS .card-content {
+.LOGOS .card-content,
+.SHAPES .card-content {
     background: #ffffff;
 }
 

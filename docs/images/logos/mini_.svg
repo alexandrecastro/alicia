@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="mini_.svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 132.29167 58.029209"
+   height="58.029209mm"
+   width="132.29167mm">
+  <title
+     id="title887">MINI logo</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="940"
+     inkscape:window-width="1680"
+     fit-margin-right="0"
+     fit-margin-top="0.01"
+     fit-margin-bottom="0.01"
+     fit-margin-left="0"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="93.105746"
+     inkscape:cx="260.37485"
+     inkscape:zoom="1"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>MINI logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:date>12/04/2018</dc:date>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>CMetalCore</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:source>Own Work</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>BMW</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-22.579725,-154.43183)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccsssss"
+       inkscape:connector-curvature="0"
+       id="circle828"
+       d="m 88.725318,154.44183 c -9.901943,0.002 -19.118847,5.05472 -24.445495,13.40189 H 22.579725 l 4.151328,4.15132 h 35.382568 c -0.671557,1.56235 -1.20441,3.18074 -1.5924,4.83646 h -28.95372 l 4.100688,4.10068 h 24.181768 c -0.07938,0.8359 -0.122416,1.67486 -0.128999,2.5145 0.0076,0.77538 0.04637,1.55015 0.116098,2.32243 H 40.505114 l 4.100688,4.10069 h 15.861909 c 0.367714,1.65373 0.879609,3.27206 1.529813,4.83644 H 49.44225 l 4.151328,4.15133 H 64.19478 c 5.297212,8.44592 14.560893,13.57934 24.530538,13.59347 9.969817,-0.014 19.233722,-5.1474 24.531022,-13.59347 h 10.60121 l 4.15132,-4.15133 h -12.55528 c 0.65021,-1.56438 1.1621,-3.18271 1.52982,-4.83644 h 15.86191 l 4.10068,-4.10069 h -19.33193 c 0.0697,-0.77228 0.10845,-1.54705 0.11609,-2.32243 -0.006,-0.83963 -0.0493,-1.67859 -0.12852,-2.5145 h 24.18129 l 4.10068,-4.10068 H 116.9299 c -0.38799,-1.65572 -0.92084,-3.27411 -1.5924,-4.83646 h 35.38257 l 4.15132,-4.15132 H 113.1713 C 107.84456,159.4964 98.627434,154.44335 88.725318,154.44183 Z m 0,3.93157 c 13.847592,0 25.073292,11.22569 25.073292,25.07328 0,13.84759 -11.2257,25.07328 -25.073292,25.07328 -13.847591,0 -25.073281,-11.22569 -25.073283,-25.07328 2e-6,-13.84759 11.225692,-25.07328 25.073283,-25.07328 z"
+       style="opacity:1;fill:#120a08;fill-opacity:1;stroke:none;stroke-width:1.68198;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+  </g>
+</svg>
