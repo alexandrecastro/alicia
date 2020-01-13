@@ -549,7 +549,9 @@ var SHAPES = {
         { image: 'square' },
         { image: 'triangle' },
         { image: 'circle' },
-        { image: 'star' }
+        { image: 'star' },
+        { image: 'moon' },
+        { image: 'heart' }
     ]
 };
 
@@ -559,12 +561,15 @@ var COLORS = {
     type: 'QUESTION',
     cards: [
         { question: 'AZUL', fontColor: '#ffffff', color: '#0000ff' },
+        { question: 'AZUL CLARO', fontColor: '#ffffff', color: '#87ceeb' },
+        { question: 'AZUL ESCURO', fontColor: '#ffffff', color: '#12098f' },
         { question: 'ROXO', fontColor: '#ffffff', color: '#842dce' },
         { question: 'VERMELHO', fontColor: '#ffffff', color: '#ff0000' },
         { question: 'VERDE', fontColor: '#000000', color: '#00ff00' },
         { question: 'ROSA', fontColor: '#ffffff', color: '#ff00ff' },
         { question: 'AMARELO', fontColor: '#000000', color: '#ffff00' },
         { question: 'LARANJA', fontColor: '#000000', color: '#ff8c00' },
+        { question: 'BEGE', fontColor: '#000000', color: '#e1c699' },
         { question: 'MARROM', fontColor: '#ffffff', color: '#65350f' },
         { question: 'BRANCO', fontColor: '#000000', color: '#ffffff' },
         { question: 'CINZA', fontColor: '#ffffff', color: '#666666' },
