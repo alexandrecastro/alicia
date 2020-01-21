@@ -45,11 +45,11 @@ function buildDeck() {
 function buildCard(card) {
     var cardHtml =
         "<li>" +
-            "<div class=\"card\" id=\"card-" + card.id + "\">" +
-                "<div class=\"card-content\" style=\"" + buildStyle('background', card.color) + "\">" +
+            "<div class='card' id='card-" + card.id + "'>" +
+                "<div class='card-content' style='" + buildStyle('background', card.color) + "'>" +
                     buildQuestion(card) +
                 "</div>" +
-                "<div class=\"card-buttons\">" +
+                "<div class='card-buttons'>" +
                     buildOptions(card) +
                 "</div>" +
             "</div>" +
@@ -58,12 +58,21 @@ function buildCard(card) {
 }
 
 function buildQuestion(card) {
-    var cardHtml = "";
-        if (card.image) {
-            cardHtml += "<img id=\"card-image-" + card.id + "\" src=\"" + buildImageUrl(card, true) + "\" class=\"card-image\" alt=\"\"/>"
-        } else {
-            cardHtml += "<div class=\"card-question\"><p style=\"" + buildStyle('color', card.fontColor) + "\">" + card.question + "</p></div>"
-        }
+    var cardHtml;
+    if (card.image) {
+        cardHtml = "<img id='card-image-" + card.id + "' src='" + buildImageUrl(card, true) + "' class='card-image' alt=''/>"
+    } else if (deck.id == 'CHEMICAL_ELEMENTS') {
+        cardHtml =
+            "<div class='card-element'>" +
+                "<div class='element'>" +
+                    "<div class='element-atomic-number'><span>" + card.atomicNumber + "</span></div>" +
+                    "<div class='element-symbol'><span id='card-answer-" + card.id + "' class='dashed'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>" +
+                    "<div class='element-name'><span>" + card.name + "</span></div>" +
+                "</div>" +
+            "</div>"
+    } else {
+        cardHtml = "<div class='card-question'><p style='" + buildStyle('color', card.fontColor) + "'>" + card.question + "</p></div>"
+    }
     return cardHtml;
 }
 
@@ -71,7 +80,7 @@ function buildOptions(card) {
     var optionsHtml = "";
     if (card.options) {
         card.options.forEach(function (option) {
-            optionsHtml += "<input type=\"button\" class=\"btn\" id=\"option-" + option.id + "\" value=\"" + option.text + "\" onclick=\"play(" + card.id + ", " + option.id + ");\"/>";
+            optionsHtml += "<input type='button' class='btn' id='option-" + option.id + "' value='" + option.text + "' onclick='play(" + card.id + ", " + option.id + ");'/>";
         });
     }
     return optionsHtml;
@@ -106,6 +115,10 @@ function play(cardId, optionId) {
     }
     if (deck.type == 'PARTIAL_IMAGE') {
         $('#card-image-' + card.id).attr('src', buildImageUrl(card, false));
+    }
+    if (deck.id == 'CHEMICAL_ELEMENTS') {
+        $('#card-answer-' + card.id).removeClass('dashed');
+        $('#card-answer-' + card.id).html(card.symbol);
     }
 }
 

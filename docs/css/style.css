@@ -326,6 +326,96 @@ input[type="button"]:disabled {
     display: none;
 }
 
+/*  CHEMICAL ELEMENT */
+
+.card-element {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.element {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #333333;
+    line-height: normal;
+    text-align: left;
+    background: #ffefd5;
+}
+
+.element-atomic-number {
+    margin: 12px 10px 0 10px;
+}
+
+.element-symbol {
+    margin: 0 10px;
+}
+
+.element-name {
+    margin: 8px 10px 10px 10px;
+}
+
+.element-atomic-number span,
+.element-symbol span,
+.element-name span {
+    display: inline-block;
+    border: 2px dashed transparent;
+}
+
+.element-atomic-number span {
+    font-size: 16px;
+}
+
+.element-symbol span {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.element-name span {
+    font-size: 18px;
+}
+
+.element-atomic-number span.dashed,
+.element-symbol span.dashed,
+.element-name span.dashed {
+    border: 2px dashed #333333;
+}
+
+@media (min-width: 768px) {
+    .element {
+        width: 300px;
+        height: 300px;
+    }
+
+    .element-atomic-number {
+        margin: 20px 20px 0 20px;
+    }
+
+    .element-symbol {
+        margin: 0 20px;
+    }
+
+    .element-name {
+        margin: 12px 20px 20px 20px;
+    }
+
+    .element-atomic-number span {
+        width: 78px;
+        height: 44px;
+        font-size: 36px;
+    }
+
+    .element-symbol span {
+        font-size: 116px;
+    }
+
+    .element-name span {
+        width: 258px;
+        height: 52px;
+        font-size: 38px;
+    }
+}
+
 /* DECKS */
 
 .COLORS .card-content {
