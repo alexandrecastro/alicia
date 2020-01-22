@@ -366,7 +366,7 @@ var WORLD_CAPITALS = {
 
 var BRAZIL_CAPITALS = {
     id: 'BRAZIL_CAPITALS',
-    name: 'CAPITAIS (MUNDO)',
+    name: 'CAPITAIS (BRASIL)',
     type: 'QUESTION',
     shuffle: true,
     cards: [
