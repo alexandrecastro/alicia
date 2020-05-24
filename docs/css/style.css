@@ -428,7 +428,12 @@ input[type="button"]:disabled {
     background: #ffffff;
 }
 
-.FRUITS .card-image {
+.PLANETS .card-content {
+   background: #000000; 
+}
+
+.FRUITS .card-image,
+.PLANETS .card-image {
     width: auto;
 }
 
