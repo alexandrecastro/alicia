@@ -807,6 +807,26 @@ var LOGOS = {
     ]
 };
 
+var PLANETS = {
+    id: 'PLANETS',
+    name: 'PLANETAS',
+    type: 'IMAGE',
+    repository: 'planets/',
+    imageType: 'png',
+    cards: [
+        { image: 'mercury' },
+        { image: 'venus' },
+        { image: 'earth' },
+        { image: 'moon' },
+        { image: 'mars' },
+        { image: 'jupiter' },
+        { image: 'saturn' },
+        { image: 'uranus' },
+        { image: 'neptune' },
+        { image: 'pluto' }
+    ]
+};
+
 var DECKS = [
     WORLD_FLAGS,
     WORLD_CAPITALS,
@@ -819,7 +839,8 @@ var DECKS = [
     NUMBERS,
     VOWELS,
     ALPHABET,
-    LOGOS
+    LOGOS,
+    PLANETS
 ];
 
 // TODO CONSTELATIONS
