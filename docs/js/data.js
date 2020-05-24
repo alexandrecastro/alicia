@@ -814,6 +814,7 @@ var PLANETS = {
     repository: 'planets/',
     imageType: 'png',
     cards: [
+        { image: 'sun' },
         { image: 'mercury' },
         { image: 'venus' },
         { image: 'earth' },
