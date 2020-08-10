@@ -438,6 +438,7 @@ input[type="button"]:disabled {
 }
 
 .ALPHABET p,
+.ALPHABET_LOWERCASE p,
 .NUMBERS p,
 .VOWELS p {
     color: #0000ff;
