@@ -626,7 +626,7 @@ var VOWELS = {
 
 var ALPHABET = {
     id: 'ALPHABET',
-    name: 'ALFABETO',
+    name: 'ALFABETO (ABC)',
     type: 'QUESTION',
     cards: [
         { question: 'A' },
