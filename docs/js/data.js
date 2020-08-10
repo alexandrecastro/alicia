@@ -658,6 +658,40 @@ var ALPHABET = {
     ]
 };
 
+var ALPHABET_LOWERCASE = {
+    id: 'ALPHABET_LOWERCASE',
+    name: 'ALFABETO (abc)',
+    type: 'QUESTION',
+    cards: [
+        { question: 'a' },
+        { question: 'b' },
+        { question: 'c' },
+        { question: 'd' },
+        { question: 'e' },
+        { question: 'f' },
+        { question: 'g' },
+        { question: 'h' },
+        { question: 'i' },
+        { question: 'j' },
+        { question: 'k' },
+        { question: 'l' },
+        { question: 'm' },
+        { question: 'n' },
+        { question: 'o' },
+        { question: 'p' },
+        { question: 'q' },
+        { question: 'r' },
+        { question: 's' },
+        { question: 't' },
+        { question: 'u' },
+        { question: 'v' },
+        { question: 'w' },
+        { question: 'x' },
+        { question: 'y' },
+        { question: 'z' }
+    ]
+};
+
 var LOGOS = {
     id: 'LOGOS',
     name: 'LOGOS',
@@ -840,6 +874,7 @@ var DECKS = [
     NUMBERS,
     VOWELS,
     ALPHABET,
+    ALPHABET_LOWERCASE,
     LOGOS,
     PLANETS
 ];
