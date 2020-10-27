@@ -561,12 +561,19 @@ var SHAPES = {
     repository: 'shapes/',
     imageType: 'svg',
     cards: [
+        { image: 'rectangle' },
         { image: 'square' },
+        { image: 'diamond' },
         { image: 'triangle' },
+        { image: 'pentagon' },
+        { image: 'hexagon' },
+        { image: 'oval' },
         { image: 'circle' },
         { image: 'star' },
         { image: 'moon' },
-        { image: 'heart' }
+        { image: 'heart' },
+        { image: 'plus' },
+        { image: 'cube' }
     ]
 };
 
@@ -607,7 +614,27 @@ var NUMBERS = {
         { question: '7' },
         { question: '8' },
         { question: '9' },
-        { question: '10' }
+        { question: '10' },
+        { question: '11' },
+        { question: '12' },
+        { question: '13' },
+        { question: '14' },
+        { question: '15' },
+        { question: '16' },
+        { question: '17' },
+        { question: '18' },
+        { question: '19' },
+        { question: '20' },
+        { question: '21' },
+        { question: '22' },
+        { question: '23' },
+        { question: '24' },
+        { question: '25' },
+        { question: '26' },
+        { question: '27' },
+        { question: '28' },
+        { question: '29' },
+        { question: '30' }
     ]
 };
 
@@ -879,4 +906,5 @@ var DECKS = [
     PLANETS
 ];
 
+// TODO CHEMICAL ELEMENTS
 // TODO CONSTELLATIONS
