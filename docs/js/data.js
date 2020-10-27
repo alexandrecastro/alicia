@@ -573,7 +573,9 @@ var SHAPES = {
         { image: 'moon' },
         { image: 'heart' },
         { image: 'plus' },
-        { image: 'cube' }
+        { image: 'cube' },
+        { image: 'cylinder' },
+        { image: 'cone' }
     ]
 };
 
