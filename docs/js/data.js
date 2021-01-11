@@ -539,6 +539,7 @@ var FRUITS = {
         { image: 'amora' },
         { image: 'banana' },
         { image: 'cacau' },
+        { image: 'carambola' },
         { image: 'coco' },
         { image: 'framboesa' },
         { image: 'goiaba' },
