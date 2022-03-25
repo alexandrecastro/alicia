@@ -571,6 +571,7 @@ var SHAPES = {
     imageType: 'svg',
     cards: [
         { image: 'rectangle' },
+        { image: 'parallelogram' },
         { image: 'square' },
         { image: 'diamond' },
         { image: 'triangle' },
