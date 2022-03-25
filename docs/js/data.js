@@ -585,6 +585,7 @@ var SHAPES = {
         { image: 'heart' },
         { image: 'plus' },
         { image: 'cube' },
+        { image: 'cuboid' },
         { image: 'cylinder' },
         { image: 'cone' }
     ]
