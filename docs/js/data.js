@@ -557,6 +557,7 @@ var FRUITS = {
         { image: 'maca' },
         { image: 'mamao' },
         { image: 'manga' },
+        { image: 'maracuja' },
         { image: 'melancia' },
         { image: 'melao' },
         { image: 'mexerica' },
