@@ -751,6 +751,35 @@ var ALPHABET_LOWERCASE = {
     ]
 };
 
+var SYMBOLS = {
+    id: 'SYMBOLS',
+    name: 'S&Iacute;MBOLOS',
+    type: 'QUESTION',
+    cards: [
+        { question: '?' },
+        { question: '!' },
+        { question: '+' },
+        { question: '-' },
+        { question: '=' },
+        { question: '/' },
+        { question: '\\' },
+        { question: '|' },
+        { question: '&' },
+        { question: '$' },
+        { question: '%' },
+        { question: '.' },
+        { question: ',' },
+        { question: ';' },
+        { question: ':' },
+        { question: '#' },
+        { question: '+' },
+        { question: '%' },
+        { question: '()' },
+        { question: '[]' },
+        { question: '{}' }
+    ]
+};
+
 var LOGOS = {
     id: 'LOGOS',
     name: 'LOGOS',
@@ -931,9 +960,11 @@ var DECKS = [
     COLORS,
     SHAPES,
     NUMBERS,
+    NUMBERS_1000,
     VOWELS,
     ALPHABET,
     ALPHABET_LOWERCASE,
+    SYMBOLS,
     LOGOS,
     PLANETS
 ];
