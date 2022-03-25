@@ -541,7 +541,6 @@ var FRUITS = {
         { image: 'baunilha' },
         { image: 'cacau' },
         { image: 'cafe' },
-        { image: 'cafe-2' },
         { image: 'cantalupo' },
         { image: 'carambola' },
         { image: 'cereja' },
