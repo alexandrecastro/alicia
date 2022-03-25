@@ -564,6 +564,7 @@ var FRUITS = {
         { image: 'morango' },
         { image: 'pera' },
         { image: 'pessego' },
+        { image: 'physalis' },
         { image: 'pitaia' },
         { image: 'roma' },
         { image: 'uva' }
