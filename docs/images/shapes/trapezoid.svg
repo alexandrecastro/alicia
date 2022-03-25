@@ -1,5 +1,5 @@
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="49.606297" height="21.259842" viewBox="0 0 50 22">
-  <g>
-    <path style="fill:blue" d="M 14.173228,14.173228 L 17.716535,7.0866136 L 28.346457,7.0866136 L 31.889764,14.173228 L 14.173228,14.173228 z " id="path5328"/>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" height="161.97824" width="290.56531">
+  <g transform="matrix(-0.80712589,0,0,-1.012364,306.70784,182.22552)">
+    <path fill="blue" d="M 20,20 H 380 L 300,180 H 100 L 20,20" />
   </g>
 </svg>
