@@ -642,6 +642,34 @@ var NUMBERS = {
     ]
 };
 
+var NUMBERS_1000 = {
+    id: 'NUMBERS_1000',
+    name: 'N&Uacute;MEROS (1000)',
+    type: 'QUESTION',
+    cards: [
+        { question: '0' },
+        { question: '10' },
+        { question: '20' },
+        { question: '30' },
+        { question: '40' },
+        { question: '50' },
+        { question: '60' },
+        { question: '70' },
+        { question: '80' },
+        { question: '90' },
+        { question: '100' },
+        { question: '200' },
+        { question: '300' },
+        { question: '400' },
+        { question: '500' },
+        { question: '600' },
+        { question: '700' },
+        { question: '800' },
+        { question: '900' },
+        { question: '1000' },
+    ]
+};
+
 var VOWELS = {
     id: 'VOWELS',
     name: 'VOGAIS',
