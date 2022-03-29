@@ -440,6 +440,8 @@ input[type="button"]:disabled {
 .ALPHABET p,
 .ALPHABET_LOWERCASE p,
 .NUMBERS p,
+.NUMBERS_1000 p,
+.SYMBOLS p,
 .VOWELS p {
     color: #0000ff;
     font-size: 128px;
