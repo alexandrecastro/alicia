@@ -541,6 +541,7 @@ var FRUITS = {
         { image: 'baunilha' },
         { image: 'cacau' },
         { image: 'cafe' },
+        { image: 'caju' },
         { image: 'cantalupo' },
         { image: 'carambola' },
         { image: 'cereja' },
@@ -967,7 +968,7 @@ var DECKS = [
     ALPHABET,
     ALPHABET_LOWERCASE,
     SYMBOLS,
-    LOGOS,
+//  LOGOS,
     PLANETS
 ];
 
