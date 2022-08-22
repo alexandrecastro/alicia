@@ -124,7 +124,7 @@ var WORLD_FLAGS = {
         { image: 'mauritius', options: [ { text: 'MAUR&Iacute;CIO', correct: true }, { text: '&Aacute;FRICA DO SUL' }, { text: 'REP. CENTRO-AFRICANA' }, { text: 'MADAGASCAR' } ] },
         { image: 'mexico', options: [ { text: 'M&Eacute;XICO', correct: true }, { text: 'IT&Aacute;LIA' }, { text: 'BOL&Iacute;VIA' }, { text: 'IRLANDA' } ] },
         { image: 'micronesia', options: [ { text: 'MICRON&Eacute;SIA', correct: true }, { text: 'FIJI' }, { text: 'TUVALU' }, { text: 'PAPUA NOVA GUIN&Eacute;' } ] },
-        { image: 'moldova', options: [ { text: 'MOLD&Aacute;VIA', correct: true }, { text: 'ROM&Ecirc;NIA' }, { text: 'CHADE' }, { text: 'EQUADOR' } ] },
+        { image: 'moldova', options: [ { text: 'MOLDOVA', correct: true }, { text: 'ROM&Ecirc;NIA' }, { text: 'CHADE' }, { text: 'EQUADOR' } ] },
         { image: 'monaco', options: [ { text: 'M&Ocirc;NACO', correct: true }, { text: 'UCR&Acirc;NIA' }, { text: 'SINGAPURA' }, { text: 'MALTA' } ] },
         { image: 'mongolia', options: [ { text: 'MONG&Oacute;LIA', correct: true }, { text: 'CHINA' }, { text: 'R&Uacute;SSIA' }, { text: 'AFGANIST&Atilde;O' } ] },
         { image: 'montenegro', options: [ { text: 'MONTENEGRO', correct: true }, { text: 'SRI LANKA' }, { text: 'BUT&Atilde;O' }, { text: 'MACED&Ocirc;NIA DO NORTE' } ] },
