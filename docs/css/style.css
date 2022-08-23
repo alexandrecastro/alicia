@@ -429,7 +429,7 @@ input[type="button"]:disabled {
 }
 
 .PLANETS .card-content {
-   background: #1a1b25;
+   background: #000000;
 }
 
 .FRUITS .card-image,
