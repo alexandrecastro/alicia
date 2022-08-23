@@ -7,7 +7,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background: url('/alicia/images/background.png');
+    /* background: url('/alicia/images/background.png'); */
     font-family: Montserrat, 'Architects Daughter';
     color: #1a1b25;
 }
@@ -174,7 +174,7 @@ body {
 }
 
 #total-count {
-    background: #666666;
+    background: #87909f;
 }
 
 #not-played-count {
@@ -228,12 +228,12 @@ a.control-next {
     }
 
     a.control-prev {
-        background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+        background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%2387909f' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
     }
 
     a.control-next {
         right: 0;
-        background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+        background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%2387909f' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
     }
 }
 
@@ -242,7 +242,7 @@ a.back {
     left: 10px;
     width: 20px;
     height: 20px;
-    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%2387909f' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
 }
 
 #spinner {
@@ -316,7 +316,7 @@ form {
 
 input[type="button"]:disabled {
     background-color: #cccccc;
-    color: #666666;
+    color: #87909f;
     cursor: default;
     transition: none;
     opacity: 1;
@@ -443,7 +443,7 @@ input[type="button"]:disabled {
 .NUMBERS_1000 p,
 .SYMBOLS p,
 .VOWELS p {
-    color: #0000ff;
+    color: #625afa;
     font-size: 96px;
     font-weight: bold;
     font-family: Montserrat, Helvetica, Arial;
