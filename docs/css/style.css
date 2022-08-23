@@ -9,7 +9,7 @@ body {
     padding: 0;
     background: url('/alicia/images/background.png');
     font-family: Montserrat, 'Architects Daughter';
-    color: #333333;
+    color: #1a1b25;
 }
 
 .header,
@@ -20,20 +20,20 @@ body {
     padding: 10px;
     height: 20px;
     line-height: 20px;
-    background-color: #e1e1e1;
+    background-color: #f6f8fa;
     text-align: center;
     z-index: 9999;
 }
 
 .header {
     top: 0;
-    border-bottom: 1px solid #c1c1c1;
+    border-bottom: 1px solid #ebeef1;
     font-weight: bold;
 }
 
 .footer {
     bottom: 0;
-    border-top: 1px solid #c1c1c1;
+    border-top: 1px solid #ebeef1;
     font-family: 'Architects Daughter';
 }
 
@@ -63,9 +63,9 @@ body {
     width: 298px;
     height: 198px;
     line-height: 198px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid #ebeef1;
     border-radius: 8px;
-    background: #f1f1f1;
+    background: #f6f8fa;
 }
 
 @media (min-width: 768px) {
@@ -337,7 +337,7 @@ input[type="button"]:disabled {
     margin: 0;
     width: 150px;
     height: 150px;
-    border: 2px solid #333333;
+    border: 2px solid #1a1b25;
     line-height: normal;
     text-align: left;
     background: #ffefd5;
@@ -378,7 +378,7 @@ input[type="button"]:disabled {
 .element-atomic-number span.dashed,
 .element-symbol span.dashed,
 .element-name span.dashed {
-    border: 2px dashed #333333;
+    border: 2px dashed #1a1b25;
 }
 
 @media (min-width: 768px) {
@@ -419,7 +419,7 @@ input[type="button"]:disabled {
 /* DECKS */
 
 .COLORS .card-content {
-    border-color: #000000;
+    border-color: #ebeef1;
 }
 
 .FRUITS .card-content,
@@ -429,7 +429,7 @@ input[type="button"]:disabled {
 }
 
 .PLANETS .card-content {
-   background: #000000; 
+   background: #1a1b25;
 }
 
 .FRUITS .card-image,
